@@ -25,6 +25,7 @@ function Hero() {
           width={128}
           height={128}
           priority
+          unoptimized
           className="h-20 w-20 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-zinc-900/10 dark:ring-white/10 sm:h-28 sm:w-28"
         />
       </div>

@@ -6,12 +6,12 @@ A small Next.js/Tailwind one-pager mirroring the structure of `projects/kantanda
 
 - Hero page with Hegel portrait
 - Literature overview parsed from `HEGEL_AI_LITERATURE_2026_claude.md`
-- 5 book/monograph/core-text suggestions and 5 article/paper suggestions
+- Chronologically descending literature: 6 monographs/edited-volume-style book entries and 5 article/paper entries
 - German legal pages (`/impressum`, `/datenschutz`) kept from the reference project
 
 ## Literature focus
 
-The shortlist emphasizes dialectic, recognition, objective spirit, institutions, responsibility, AI-related monographs, and the question whether AI systems can be understood as mind-like, subject-like, or merely as mediated tools inside human practices.
+The shortlist emphasizes dialectic, recognition, objective spirit, institutions, responsibility, recent AI-related monographs/edited volumes, and the question whether AI systems can be understood as mind-like, subject-like, or merely as mediated tools inside human practices. Primary texts by Hegel are not listed in the main literature section.
 
 ## Image credit
 

@@ -37,11 +37,11 @@ export function LiteratureStats({ data }: { data: LiteratureData }) {
     },
     {
       value: String(booksCount),
-      label: "Books",
+      label: "Books / volumes",
     },
     {
       value: String(articleCount),
-      label: "Articles",
+      label: "Articles / papers",
     },
   ];
 
