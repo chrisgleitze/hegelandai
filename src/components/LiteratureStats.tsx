@@ -4,20 +4,23 @@ import type { LiteratureData } from "@/lib/literature";
 type Stat = {
   value: string;
   label: string;
+  href: string;
 };
 
-function StatCard({ value, label }: Stat) {
+function StatCard({ value, label, href }: Stat) {
   return (
     <Card
       as="li"
-      className="rounded-2xl border border-zinc-100 bg-white/80 p-6 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition duration-200 ease-out hover:-translate-y-1 hover:shadow-md dark:border-zinc-700/40 dark:bg-zinc-900/40 dark:ring-white/10"
+      className="overflow-hidden rounded-2xl border border-zinc-100 bg-white/80 p-6 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition duration-200 ease-out hover:-translate-y-px hover:shadow-none dark:border-zinc-700/40 dark:bg-zinc-900/40 dark:ring-white/10 dark:hover:shadow-none"
     >
-      <p className="text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
-        {value}
-      </p>
-      <p className="mt-2 text-sm font-semibold text-teal-600 dark:text-teal-400">
-        {label}
-      </p>
+      <Card.Link href={href}>
+        <span className="block text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+          {value}
+        </span>
+        <span className="mt-2 block text-sm font-semibold text-teal-600 dark:text-teal-400">
+          {label}
+        </span>
+      </Card.Link>
     </Card>
   );
 }
@@ -34,14 +37,17 @@ export function LiteratureStats({ data }: { data: LiteratureData }) {
     {
       value: String(data.totalEntries),
       label: "Entries",
+      href: "#books",
     },
     {
       value: String(booksCount),
-      label: "Books / volumes",
+      label: "Books",
+      href: "#books",
     },
     {
       value: String(articleCount),
-      label: "Articles / papers",
+      label: "Articles",
+      href: "#articles",
     },
   ];
 

@@ -94,11 +94,6 @@ function LiteratureCard({ entry }: { entry: LiteratureEntry }) {
           <h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-800 dark:text-zinc-100">
             <MarkdownSpan text={entry.title} />
           </h3>
-          {entry.type && (
-            <p className="mt-3 inline-flex rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium uppercase tracking-wide text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
-              {entry.type}
-            </p>
-          )}
         </div>
       </div>
 

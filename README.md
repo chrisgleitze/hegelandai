@@ -6,7 +6,7 @@ A small Next.js/Tailwind one-pager mirroring the structure of `projects/kantanda
 
 - Hero page with Hegel portrait
 - Literature overview parsed from `HEGEL_AI_LITERATURE_2026_claude.md`
-- Chronologically descending literature: 6 monographs/edited-volume-style book entries and 5 article/paper entries
+- Chronologically descending literature: 12 monograph/edited-volume entries and 21 article/paper entries
 - German legal pages (`/impressum`, `/datenschutz`) kept from the reference project
 
 ## Literature focus

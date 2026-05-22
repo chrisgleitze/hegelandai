@@ -10,7 +10,6 @@ export type LiteratureEntry = {
   id: string
   number: number
   title: string
-  type: string
   sourcesLabel: string
   sources: LiteratureLink[]
   summary: string
@@ -54,6 +53,7 @@ function stripMarkdown(input: string): string {
     .replace(/`([^`]+)`/g, '$1')
     .replace(/\*\*([^*]+)\*\*/g, '$1')
     .replace(/_([^_]+)_/g, '$1')
+    .replace(/\s*\([^)]*(?:DOI|ISBN)[^)]*\)/gi, '')
     .trim()
 }
 
@@ -78,7 +78,6 @@ function parseEntry(
   title: string,
   lines: string[],
 ): LiteratureEntry {
-  const type = getField(lines, 'Type')
   const summary = getField(lines, 'Summary')
   const sourcesLabel =
     SOURCE_LABELS.find((label) => getField(lines, label).length > 0) ?? 'Source'
@@ -88,7 +87,6 @@ function parseEntry(
     id: `entry-${number}-${slugify(stripMarkdown(title)).slice(0, 54)}`,
     number,
     title,
-    type,
     sourcesLabel,
     sources,
     summary,

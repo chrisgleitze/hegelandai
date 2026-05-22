@@ -26,7 +26,7 @@ function Hero() {
           height={128}
           priority
           unoptimized
-          className="h-20 w-20 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-zinc-900/10 dark:ring-white/10 sm:h-28 sm:w-28"
+          className="h-20 w-20 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-white/10 transition duration-200 ease-out hover:-translate-y-px hover:ring-teal-400/30 sm:h-28 sm:w-28"
         />
       </div>
     </Container>
