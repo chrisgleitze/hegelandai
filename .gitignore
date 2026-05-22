@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.pnp.cjs
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+.vercel/output/
+.turbo/
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Tailwind / generated CSS artifacts
+*.generated.css
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.local.example
+!.env.*.example
+
+# Local development
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDEs / editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Testing / coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Storybook
+storybook-static/
+
+# Package manager files
+npm-packages-offline-cache/
+
+# Deployment / hosting
+.vercel/
+.netlify/
+
+# Misc
+*.local

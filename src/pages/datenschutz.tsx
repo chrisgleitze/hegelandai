@@ -1,0 +1,870 @@
+import Head from 'next/head'
+import { SimpleLayout } from '@/components/SimpleLayout'
+
+export default function Datenschutz() {
+  return (
+    <>
+      <Head>
+        <title>Datenschutzerklärung - Christian Gleitze</title>
+        <meta
+          name="description"
+          content="Datenschutzerklärung"
+        />
+        <meta
+          name="robots"
+          content="noindex"
+        />
+      </Head>
+      <SimpleLayout>
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+          Datenschutzerklärung
+        </h1>
+        <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="pb-6">
+            Ich freue mich sehr über Ihr Interesse an dieser Website.
+            Datenschutz hat für mich einen besonders hohen Stellenwert. Eine
+            Nutzung dieser Internetseiten ist grundsätzlich ohne jede Angabe
+            personenbezogener Daten möglich. Sofern eine betroffene Person
+            besondere Services dieser Internetseite in Anspruch nehmen möchte,
+            könnte jedoch eine Verarbeitung personenbezogener Daten erforderlich
+            werden. Ist die Verarbeitung personenbezogener Daten erforderlich
+            und besteht für eine solche Verarbeitung keine gesetzliche
+            Grundlage, hole ich generell eine Einwilligung der betroffenen
+            Person ein. Die Verarbeitung personenbezogener Daten, beispielsweise
+            des Namens, der Anschrift, E-Mail-Adresse oder Telefonnummer einer
+            betroffenen Person, erfolgt stets im Einklang mit der
+            Datenschutz-Grundverordnung und in Übereinstimmung mit den für die
+            geltenden landesspezifischen Datenschutzbestimmungen. Mittels dieser
+            Datenschutzerklärung möchte ich die Öffentlichkeit
+            über Art, Umfang und Zweck der von mir erhobenen, genutzten und
+            verarbeiteten personenbezogenen Daten informieren. Ferner werden
+            betroffene Personen mittels dieser Datenschutzerklärung über die
+            ihnen zustehenden Rechte aufgeklärt. Als für die Verarbeitung
+            Verantwortlicher habe ich zahlreiche technische und organisatorische
+            Maßnahmen umgesetzt, um einen möglichst lückenlosen
+            Schutz der über diese Internetseite verarbeiteten personenbezogenen
+            Daten sicherzustellen. Dennoch können Internetbasierte
+            Datenübertragungen grundsätzlich Sicherheitslücken aufweisen, sodass
+            ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem
+            Grund steht es jeder betroffenen Person frei, personenbezogene Daten
+            auch auf alternativen Wegen, beispielsweise telefonisch, an mich zu
+            übermitteln.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Begriffsbestimmungen
+          </p>
+          <p className="pb-6">
+            Diese Datenschutzerklärung beruht auf den Begrifflichkeiten, die
+            durch den Europäischen Richtlinien- und Verordnungsgeber beim Erlass
+            der Datenschutz-Grundverordnung (DS-GVO) verwendet wurden. Meine
+            Datenschutzerklärung soll für die Öffentlichkeit einfach lesbar und
+            verständlich sein. Um dies zu gewährleisten, möchte ich vorab die
+            verwendeten Begrifflichkeiten erläutern. Ich verwende in dieser
+            Datenschutzerklärung unter anderem die folgenden Begriffe:
+          </p>
+          <ol className="pb-6">
+            <li>
+              <b>1. personenbezogene Daten</b>
+            </li>
+            <p className="pb-3">
+              Personenbezogene Daten sind alle Informationen, die sich auf eine
+              identifizierte oder identifizierbare natürliche Person (im
+              Folgenden „betroffene Person“) beziehen. Als identifizierbar wird
+              eine natürliche Person angesehen, die direkt oder indirekt,
+              insbesondere mittels Zuordnung zu einer Kennung wie einem Namen,
+              zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung
+              oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der
+              physischen, physiologischen, genetischen, psychischen,
+              wirtschaftlichen, kulturellen oder sozialen Identität dieser
+              natürlichen Person sind, identifiziert werden kann.
+            </p>
+            <li>
+              <b>2. betroffene Personen</b>
+            </li>
+            <p className="pb-3">
+              Betroffene Person ist jede identifizierte oder identifizierbare
+              natürliche Person, deren personenbezogene Daten von dem für die
+              Verarbeitung Verantwortlichen verarbeitet werden.
+            </p>
+            <li>
+              <b>3. Verarbeitung</b>
+            </li>
+            <p className="pb-3">
+              Verarbeitung ist jeder mit oder ohne Hilfe automatisierter
+              Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im
+              Zusammenhang mit personenbezogenen Daten wie das Erheben, das
+              Erfassen, die Organisation, das Ordnen, die Speicherung, die
+              Anpassung oder Veränderung, das Auslesen, das Abfragen, die
+              Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder
+              eine andere Form der Bereitstellung, den Abgleich oder die
+              Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.
+            </p>
+            <li>
+              <b>4. Einschränkung der Verarbeitung</b>
+            </li>
+            <p className="pb-3">
+              Einschränkung der Verarbeitung ist die Markierung gespeicherter
+              personenbezogener Daten mit dem Ziel, ihre künftige Verarbeitung
+              einzuschränken.
+            </p>
+            <li>
+              <b>5. Profiling</b>
+            </li>
+            <p className="pb-3">
+              Profiling ist jede Art der automatisierten Verarbeitung
+              personenbezogener Daten, die darin besteht, dass diese
+              personenbezogenen Daten verwendet werden, um bestimmte persönliche
+              Aspekte, die sich auf eine natürliche Person beziehen, zu
+              bewerten, insbesondere, um Aspekte bezüglich Arbeitsleistung,
+              wirtschaftlicher Lage, Gesundheit, persönlicher Vorlieben,
+              Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder
+              Ortswechsel dieser natürlichen Person zu analysieren oder
+              vorherzusagen.
+            </p>
+            <li>
+              <b>6. Pseudonymisierung</b>
+            </li>
+            <p className="pb-3">
+              Pseudonymisierung ist die Verarbeitung personenbezogener Daten in
+              einer Weise, auf welche die personenbezogenen Daten ohne
+              Hinzuziehung zusätzlicher Informationen nicht mehr einer
+              spezifischen betroffenen Person zugeordnet werden können, sofern
+              diese zusätzlichen Informationen gesondert aufbewahrt werden und
+              technischen und organisatorischen Maßnahmen unterliegen, die
+              gewährleisten, dass die personenbezogenen Daten nicht einer
+              identifizierten oder identifizierbaren natürlichen Person
+              zugewiesen werden.
+            </p>
+            <li>
+              <b>
+                7. Verantwortlicher oder für die Verarbeitung Verantwortlicher
+              </b>
+            </li>
+            <p className="pb-3">
+              Verantwortlicher oder für die Verarbeitung Verantwortlicher ist
+              die natürliche oder juristische Person, Behörde, Einrichtung oder
+              andere Stelle, die allein oder gemeinsam mit anderen über die
+              Zwecke und Mittel der Verarbeitung von personenbezogenen Daten
+              entscheidet. Sind die Zwecke und Mittel dieser Verarbeitung durch
+              das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so
+              kann der Verantwortliche beziehungsweise können die bestimmten
+              Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der
+              Mitgliedstaaten vorgesehen werden.
+            </p>
+            <li>
+              <b>8. Auftragsverarbeiter</b>
+            </li>
+            <p className="pb-3">
+              Auftragsverarbeiter ist eine natürliche oder juristische Person,
+              Behörde, Einrichtung oder andere Stelle, die personenbezogene
+              Daten im Auftrag des Verantwortlichen verarbeitet.
+            </p>
+            <li>
+              <b>9. Empfänger</b>
+            </li>
+            <p className="pb-3">
+              Empfänger ist eine natürliche oder juristische Person, Behörde,
+              Einrichtung oder andere Stelle, der personenbezogene Daten
+              offengelegt werden, unabhängig davon, ob es sich bei ihr um einen
+              Dritten handelt oder nicht. Behörden, die im Rahmen eines
+              bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem
+              Recht der Mitgliedstaaten möglicherweise personenbezogene Daten
+              erhalten, gelten jedoch nicht als Empfänger.
+            </p>
+            <li>
+              <b>10. Dritter</b>
+            </li>
+            <p className="pb-3">
+              Dritter ist eine natürliche oder juristische Person, Behörde,
+              Einrichtung oder andere Stelle außer der betroffenen Person, dem
+              Verantwortlichen, dem Auftragsverarbeiter und den Personen, die
+              unter der unmittelbaren Verantwortung des Verantwortlichen oder
+              des Auftragsverarbeiters befugt sind, die personenbezogenen Daten
+              zu verarbeiten.
+            </p>
+            <li>
+              <b>11. Einwilligung</b>
+            </li>
+            <p className="pb-3">
+              Einwilligung ist jede von der betroffenen Person freiwillig für
+              den bestimmten Fall in informierter Weise und unmissverständlich
+              abgegebene Willensbekundung in Form einer Erklärung oder einer
+              sonstigen eindeutigen bestätigenden Handlung, mit der die
+              betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung
+              der sie betreffenden personenbezogenen Daten einverstanden ist.
+            </p>
+          </ol>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Name und Anschrift des für die Verarbeitung Verantwortlichen
+          </p>
+          <p className="pb-6">
+            Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger
+            in den Mitgliedstaaten der Europäischen Union geltenden
+            Datenschutzgesetze und anderer Bestimmungen mit
+            datenschutzrechtlichem Charakter ist:
+          </p>
+          <p className="pb-6">
+            Christian Gleitze
+            <br />
+            Ederstraße 14
+            <br />
+            60486 Frankfurt am Main
+            <br />
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Cookies
+          </p>
+          <p className="pb-6">
+            Diese Internetseiten verwenden Cookies.
+            Cookies sind Textdateien, welche über einen Internetbrowser auf
+            einem Computersystem abgelegt und gespeichert werden. Zahlreiche
+            Internetseiten und Server verwenden Cookies. Viele Cookies enthalten
+            eine sogenannte Cookie-ID. Eine Cookie-ID ist eine eindeutige
+            Kennung des Cookies. Sie besteht aus einer Zeichenfolge, durch
+            welche Internetseiten und Server dem konkreten Internetbrowser
+            zugeordnet werden können, in dem das Cookie gespeichert wurde. Dies
+            ermöglicht es den besuchten Internetseiten und Servern, den
+            individuellen Browser der betroffenen Person von anderen
+            Internetbrowsern, die andere Cookies enthalten, zu unterscheiden.
+            Ein bestimmter Internetbrowser kann über die eindeutige Cookie-ID
+            wiedererkannt und identifiziert werden. Durch den Einsatz von
+            Cookies können den Nutzern dieser Internetseite nutzerfreundlichere
+            Services bereitgestellt werden, die ohne die Cookie-Setzung nicht
+            möglich wären. Mittels eines Cookies können die Informationen und
+            Angebote auf dieser Internetseite im Sinne des Benutzers optimiert
+            werden. Cookies ermöglichen mir, wie bereits erwähnt, die Benutzer
+            dieser Internetseite wiederzuerkennen. Zweck dieser Wiedererkennung
+            ist es, den Nutzern die Verwendung dieser Internetseite zu
+            erleichtern. Der Benutzer einer Internetseite, die Cookies
+            verwendet, muss beispielsweise nicht bei jedem Besuch der
+            Internetseite erneut seine Zugangsdaten eingeben, weil dies von der
+            Internetseite und dem auf dem Computersystem des Benutzers
+            abgelegten Cookie übernommen wird. Ein weiteres Beispiel ist das
+            Cookie eines Warenkorbes im Online-Shop. Der Online-Shop merkt sich
+            die Artikel, die ein Kunde in den virtuellen Warenkorb gelegt hat,
+            über ein Cookie. Die betroffene Person kann die Setzung von Cookies
+            durch diese Internetseite jederzeit mittels einer entsprechenden
+            Einstellung des genutzten Internetbrowsers verhindern und damit der
+            Setzung von Cookies dauerhaft widersprechen. Ferner können bereits
+            gesetzte Cookies jederzeit über einen Internetbrowser oder andere
+            Softwareprogramme gelöscht werden. Dies ist in allen gängigen
+            Internetbrowsern möglich. Deaktiviert die betroffene Person die
+            Setzung von Cookies in dem genutzten Internetbrowser, sind unter
+            Umständen nicht alle Funktionen dieser Internetseite vollumfänglich
+            nutzbar.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Erfassung von allgemeinen Daten und Informationen
+          </p>
+          <p className="pb-6">
+            Diese Internetseiten erfassen mit jedem Aufruf der Internetseite
+            durch eine betroffene Person oder ein automatisiertes System eine
+            Reihe von allgemeinen Daten und Informationen. Diese allgemeinen
+            Daten und Informationen werden in den Logfiles des Servers
+            gespeichert. Erfasst werden können die (1) verwendeten Browsertypen
+            und Versionen, (2) das vom zugreifenden System verwendete
+            Betriebssystem, (3) die Internetseite, von welcher ein zugreifendes
+            System auf diese Internetseite gelangt (sogenannte Referrer), (4)
+            die Unterwebseiten, welche über ein zugreifendes System auf dieser
+            Internetseite angesteuert werden, (5) das Datum und die Uhrzeit
+            eines Zugriffs auf die Internetseite, (6) eine
+            Internet-Protokoll-Adresse (IP-Adresse), (7) der
+            Internet-Service-Provider des zugreifenden Systems und (8) sonstige
+            ähnliche Daten und Informationen, die der Gefahrenabwehr im Falle
+            von Angriffen auf meine informationstechnologischen Systeme dienen.
+            Bei der Nutzung dieser allgemeinen Daten und Informationen ziehe
+            ich keine Rückschlüsse auf die betroffene Person.
+            Diese Informationen werden vielmehr benötigt, um (1) die Inhalte
+            dieser Internetseite korrekt auszuliefern, (2) die Inhalte dieser
+            Internetseite sowie die Werbung für diese zu optimieren, (3) die
+            dauerhafte Funktionsfähigkeit meiner informationstechnologischen
+            Systeme und der Technik dieser Internetseite zu gewährleisten sowie
+            (4) um Strafverfolgungsbehörden im Falle eines Cyberangriffes die
+            zur Strafverfolgung notwendigen Informationen bereitzustellen. Diese
+            anonym erhobenen Daten und Informationen werden durch mich daher
+            einerseits statistisch und ferner mit dem Ziel ausgewertet, den
+            Datenschutz und die Datensicherheit auf dieser Website zu erhöhen,
+            um letztlich ein optimales Schutzniveau für
+            die von mir verarbeiteten personenbezogenen Daten sicherzustellen.
+            Die anonymen Daten der Server-Logfiles werden getrennt von allen
+            durch eine betroffene Person angegebenen personenbezogenen Daten
+            gespeichert.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Datenschutzerklärung
+          </p>
+          <p className="pb-6 text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+            Datenschutzerklärung für die Nutzung von Google Analytics
+          </p>
+          <p className="pb-6">
+            Diese Website benutzt Google Analytics, einen Webanalysedienst der
+            Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“,
+            Textdateien, die auf Ihrem Computer gespeichert werden und die eine
+            Analyse der Benutzung der Website durch Sie ermöglichen. Die durch
+            den Cookie erzeugten Informationen über Ihre Benutzung dieser
+            Website werden in der Regel an einen Server von Google in den USA
+            übertragen und dort gespeichert. Im Falle der Aktivierung der
+            IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von
+            Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union
+            oder in anderen Vertragsstaaten des Abkommens über den Europäischen
+            Wirtschaftsraum zuvor gekürzt.Nur in Ausnahmefällen wird die volle
+            IP-Adresse an einen Server von Google in den USA übertragen und dort
+            gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese
+            Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um
+            Reports über die Websiteaktivitäten zusammenzustellen und um weitere
+            mit der Websitenutzung und der Internetnutzung verbundene
+            Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im
+            Rahmen von Google Analytics von Ihrem Browser übermittelte
+            IP-Adresse wird nicht mit anderen Daten von Google
+            zusammengeführt.Sie können die Speicherung der Cookies durch eine
+            entsprechende Einstellung Ihrer Browser-Software verhindern; ich
+            weise Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls
+            nicht sämtliche Funktionen dieser Website vollumfänglich werden
+            nutzen können. Sie können darüber hinaus die Erfassung der durch das
+            Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten
+            (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser
+            Daten durch Google verhindern, indem sie das unter dem folgenden
+            Link verfügbare Browser-Plugin herunterladen und installieren:{' '}
+            <a
+              href="http://tools.google.com/dlpage/gaoptout?hl=de"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              http://tools.google.com/dlpage/gaoptout?hl=de
+            </a>
+            .
+          </p>
+          <p className="pb-6 text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+            Datenschutzerklärung für die Nutzung von Google Adsense
+          </p>
+          <p className="pb-6">
+            Diese Website benutzt Google AdSense, einen Dienst zum Einbinden von
+            Werbeanzeigen der Google Inc. („Google“). Google AdSense verwendet
+            sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert
+            werden und die eine Analyse der Benutzung der Website ermöglicht.
+            Google AdSense verwendet auch so genannte Web Beacons (unsichtbare
+            Grafiken). Durch diese Web Beacons können Informationen wie der
+            Besucherverkehr auf diesen Seiten ausgewertet werden.Die durch
+            Cookies und Web Beacons erzeugten Informationen über die Benutzung
+            dieser Website (einschließlich Ihrer IP-Adresse) und Auslieferung
+            von Werbeformaten werden an einen Server von Google in den USA
+            übertragen und dort gespeichert. Diese Informationen können von
+            Google an Vertragspartner von Google weiter gegeben werden. Google
+            wird Ihre IP-Adresse jedoch nicht mit anderen von Ihnen
+            gespeicherten Daten zusammenführen. Sie können die Installation der
+            Cookies durch eine entsprechende Einstellung Ihrer Browser Software
+            verhindern; ich weise Sie jedoch darauf hin, dass Sie in diesem
+            Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll
+            umfänglich nutzen können. Durch die Nutzung dieser Website erklären
+            Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch
+            Google in der zuvor beschriebenen Art und Weise und zu dem zuvor
+            benannten Zweck einverstanden.
+          </p>
+          <p className="pb-6 text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+            Datenschutzerklärung für die Nutzung von Twitter
+          </p>
+          <p className="pb-6">
+            Auf dieser Website sind Funktionen des Dienstes Twitter eingebunden.
+            Diese Funktionen werden angeboten durch die Twitter Inc., Twitter,
+            Inc. 1355 Market St, Suite 900, San Francisco, CA 94103, USA. Durch
+            das Benutzen von Twitter und der Funktion „Re-Tweet“ werden die von
+            Ihnen besuchten Webseiten mit Ihrem Twitter-Account verknüpft und
+            anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter
+            übertragen. Ich weise darauf hin, dass ich als Anbieter dieser Seiten
+            keine Kenntnis vom Inhalt der übermittelten Daten sowie deren
+            Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden
+            Sie in der Datenschutzerklärung von Twitter unter{' '}
+            <a
+              href="http://twitter.com/privacy"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              http://twitter.com/privacy
+            </a>
+            . Ihre Datenschutzeinstellungen bei Twitter können Sie in den
+            Konto-Einstellungen unter{' '}
+            <a
+              href="http://twitter.com/account/settings"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              http://twitter.com/account/settings
+            </a>{' '}
+            ändern. Quellen:{' '}
+            <a
+              href="https://href.li/?http://www.google.com/intl/de/analytics/privacyoverview.html"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Google Analytics Bedingungen
+            </a>
+            ,{' '}
+            <a
+              href="http://www.e-recht24.de/artikel/datenschutz/6635-datenschutz-rechtliche-risiken-bei-der-nutzung-von-google-analytics-und-googleadsense.html"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Google Adsense Haftungsausschluss
+            </a>
+            ,{' '}
+            <a
+              href="http://twitter.com/privacy"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Twitter Bedingungen
+            </a>
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Kontaktmöglichkeit über die Internetseite
+          </p>
+          <p className="pb-6">
+            Die Internetseite christiangleitze.com enthält aufgrund von
+            gesetzlichen Vorschriften Angaben, die eine schnelle elektronische
+            Kontaktaufnahme zu mir sowie eine unmittelbare
+            Kommunikation mit mir ermöglichen, was ebenfalls eine allgemeine
+            Adresse der sogenannten elektronischen Post (E-Mail-Adresse)
+            umfasst. Sofern eine betroffene Person per E-Mail oder über ein
+            Kontaktformular den Kontakt mit dem für die Verarbeitung
+            Verantwortlichen aufnimmt, werden die von der betroffenen Person
+            übermittelten personenbezogenen Daten automatisch gespeichert.
+            Solche auf freiwilliger Basis von einer betroffenen Person an den
+            für die Verarbeitung Verantwortlichen übermittelten
+            personenbezogenen Daten werden für Zwecke der Bearbeitung oder der
+            Kontaktaufnahme zur betroffenen Person gespeichert. Es erfolgt keine
+            Weitergabe dieser personenbezogenen Daten an Dritte.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Routinemäßige Löschung und Sperrung von personenbezogenen Daten
+          </p>
+          <p className="pb-6">
+            Der für die Verarbeitung Verantwortliche verarbeitet und speichert
+            personenbezogene Daten der betroffenen Person nur für den Zeitraum,
+            der zur Erreichung des Speicherungszwecks erforderlich ist oder
+            sofern dies durch den Europäischen Richtlinien- und Verordnungsgeber
+            oder einen anderen Gesetzgeber in Gesetzen oder Vorschriften,
+            welchen der für die Verarbeitung Verantwortliche unterliegt,
+            vorgesehen wurde. Entfällt der Speicherungszweck oder läuft eine vom
+            Europäischen Richtlinien- und Verordnungsgeber oder einem anderen
+            zuständigen Gesetzgeber vorgeschriebene Speicherfrist ab, werden die
+            personenbezogenen Daten routinemäßig und entsprechend den
+            gesetzlichen Vorschriften gesperrt oder gelöscht.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Rechte der betroffenen Person
+          </p>
+          <ol className="pb-6">
+            <li>
+              <b>1. Recht auf Bestätigung</b>
+            </li>
+            <p className="pb-3">
+              Jede betroffene Person hat das vom Europäischen Richtlinien- und
+              Verordnungsgeber eingeräumte Recht, von dem für die Verarbeitung
+              Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie
+              betreffende personenbezogene Daten verarbeitet werden. Möchte eine
+              betroffene Person dieses Bestätigungsrecht in Anspruch nehmen,
+              kann sie sich hierzu jederzeit an mich wenden.
+            </p>
+            <li>
+              <b>2. Recht auf Auskunt</b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, jederzeit von dem für die Verarbeitung
+              Verantwortlichen unentgeltliche Auskunft über die zu seiner Person
+              gespeicherten personenbezogenen Daten und eine Kopie dieser
+              Auskunft zu erhalten. Ferner hat der Europäische Richtlinien- und
+              Verordnungsgeber der betroffenen Person Auskunft über folgende
+              Informationen zugestanden:
+            </p>
+            <p className="pb-3">
+              <ul>
+                <li>- die Verarbeitungszwecke</li>
+                <li>
+                  - die Kategorien personenbezogener Daten, die verarbeitet
+                  werden
+                </li>
+                <li>
+                  - die Empfänger oder Kategorien von Empfängern, gegenüber
+                  denen die personenbezogenen Daten offengelegt worden sind oder
+                  noch offengelegt werden, insbesondere bei Empfängern in
+                  Drittländern oder bei internationalen Organisationen
+                </li>
+                <li>
+                  - falls möglich die geplante Dauer, für die die
+                  personenbezogenen Daten gespeichert werden, oder, falls dies
+                  nicht möglich ist, die Kriterien für die Festlegung dieser
+                  Dauer
+                </li>
+                <li>
+                  - das Bestehen eines Rechts auf Berichtigung oder Löschung der
+                  sie betreffenden personenbezogenen Daten oder auf
+                  Einschränkung der Verarbeitung durch den Verantwortlichen oder
+                  eines Widerspruchsrechts gegen diese Verarbeitung
+                </li>
+                <li>
+                  - das Bestehen eines Beschwerderechts bei einer
+                  Aufsichtsbehörde
+                </li>
+                <li>
+                  - wenn die personenbezogenen Daten nicht bei der betroffenen
+                  Person erhoben werden: Alle verfügbaren Informationen über die
+                  Herkunft der Daten
+                </li>
+                <li>
+                  - das Bestehen einer automatisierten Entscheidungsfindung
+                  einschließlich Profiling gemäß Artikel 22 Abs.1 und 4 DS-GVO
+                  und — zumindest in diesen Fällen — aussagekräftige
+                  Informationen über die involvierte Logik sowie die Tragweite
+                  und die angestrebten Auswirkungen einer derartigen
+                  Verarbeitung für die betroffene Person
+                </li>
+              </ul>
+            </p>
+            <p className="pb-3">
+              Ferner steht der betroffenen Person ein Auskunftsrecht darüber zu,
+              ob personenbezogene Daten an ein Drittland oder an eine
+              internationale Organisation übermittelt wurden. Sofern dies der
+              Fall ist, so steht der betroffenen Person im Übrigen das Recht zu,
+              Auskunft über die geeigneten Garantien im Zusammenhang mit der
+              Übermittlung zu erhalten. Möchte eine betroffene Person dieses
+              Auskunftsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit
+              an mich wenden.
+            </p>
+            <li>
+              <b>3. Recht auf Berichtigung</b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, die unverzügliche Berichtigung sie betreffender
+              unrichtiger personenbezogener Daten zu verlangen. Ferner steht der
+              betroffenen Person das Recht zu, unter Berücksichtigung der Zwecke
+              der Verarbeitung, die Vervollständigung unvollständiger
+              personenbezogener Daten — auch mittels einer ergänzenden Erklärung
+              — zu verlangen. Möchte eine betroffene Person dieses
+              Berichtigungsrecht in Anspruch nehmen, kann sie sich hierzu
+              jederzeit an mich wenden.
+            </p>
+            <li>
+              <b>4. Recht auf Löschung (Recht auf Vergessen werden)</b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, von dem Verantwortlichen zu verlangen, dass die
+              sie betreffenden personenbezogenen Daten unverzüglich gelöscht
+              werden, sofern einer der folgenden Gründe zutrifft und soweit die
+              Verarbeitung nicht erforderlich ist:
+            </p>
+            <p className="pb-3">
+              <ul>
+                <li>
+                  - Die personenbezogenen Daten wurden für solche Zwecke erhoben
+                  oder auf sonstige Weise verarbeitet, für welche sie nicht mehr
+                  notwendig sind.
+                </li>
+                <li>
+                  - Die betroffene Person widerruft ihre Einwilligung, auf die
+                  sich die Verarbeitung gemäß Art. 6 Abs. 1 Buchstabe a DS-GVO
+                  oder Art. 9 Abs. 2 Buchstabe a DS-GVO stützte, und es fehlt an
+                  einer anderweitigen Rechtsgrundlage für die Verarbeitung.
+                </li>
+                <li>
+                  - Die betroffene Person legt gemäß Art. 21 Abs. 1 DS-GVO
+                  Widerspruch gegen die Verarbeitung ein, und es liegen keine
+                  vorrangigen berechtigten Gründe für die Verarbeitung vor, oder
+                  die betroffene Person legt gemäß Art. 21 Abs. 2 DS-GVO
+                  Widerspruch gegen die Verarbeitung ein.
+                </li>
+                <li>
+                  - Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.
+                </li>
+                <li>
+                  - Die Löschung der personenbezogenen Daten ist zur Erfüllung
+                  einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem
+                  Recht der Mitgliedstaaten erforderlich, dem der
+                  Verantwortliche unterliegt.
+                </li>
+                <li>
+                  - Die personenbezogenen Daten wurden in Bezug auf angebotene
+                  Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1
+                  DS-GVO erhoben.
+                </li>
+              </ul>
+            </p>
+            <p className="pb-3">
+              Sofern einer der oben genannten Gründe zutrifft und eine
+              betroffene Person die Löschung von personenbezogenen Daten, die
+              bei mir gespeichert sind, veranlassen möchte,
+              kann sie sich hierzu jederzeit an mich wenden. Ich werde veranlassen,
+              dass dem Löschverlangen unverzüglich nachgekommen wird. Wurden die
+              personenbezogenen Daten von mir öffentlich
+              gemacht und bin ich als Verantwortlicher gemäß Art.
+              17 Abs. 1 DS-GVO zur Löschung der personenbezogenen Daten
+              verpflichtet, so treffe ich unter
+              Berücksichtigung der verfügbaren Technologie und der
+              Implementierungskosten angemessene Maßnahmen, auch technischer
+              Art, um andere für die Datenverarbeitung Verantwortliche, welche
+              die veröffentlichten personenbezogenen Daten verarbeiten, darüber
+              in Kenntnis zu setzen, dass die betroffene Person von diesen
+              anderen für die Datenverarbeitung Verantwortlichen die Löschung
+              sämtlicher Links zu diesen personenbezogenen Daten oder von Kopien
+              oder Replikationen dieser personenbezogenen Daten verlangt hat,
+              soweit die Verarbeitung nicht erforderlich ist. Ich werde im Einzelfall das Notwendige veranlassen.
+            </p>
+            <li>
+              <b>5. Recht auf Einschränkung der Verarbeitung</b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, von dem Verantwortlichen die Einschränkung der
+              Verarbeitung zu verlangen, wenn eine der folgenden Voraussetzungen
+              gegeben ist:
+            </p>
+            <p className="pb-3">
+              <ul>
+                <li>
+                  - Die Richtigkeit der personenbezogenen Daten wird von der
+                  betroffenen Person bestritten, und zwar für eine Dauer, die es
+                  dem Verantwortlichen ermöglicht, die Richtigkeit der
+                  personenbezogenen Daten zu überprüfen.
+                </li>
+                <li>
+                  - Die Verarbeitung ist unrechtmäßig, die betroffene Person
+                  lehnt die Löschung der personenbezogenen Daten ab und verlangt
+                  stattdessen die Einschränkung der Nutzung der
+                  personenbezogenen Daten.
+                </li>
+                <li>
+                  - Der Verantwortliche benötigt die personenbezogenen Daten für
+                  die Zwecke der Verarbeitung nicht länger, die betroffene
+                  Person benötigt sie jedoch zur Geltendmachung, Ausübung oder
+                  Verteidigung von Rechtsansprüchen.
+                </li>
+                <li>
+                  - Die betroffene Person hat Widerspruch gegen die Verarbeitung
+                  gem. Art. 21 Abs. 1 DS-GVO eingelegt und es steht noch nicht
+                  fest, ob die berechtigten Gründe des Verantwortlichen
+                  gegenüber denen der betroffenen Person überwiegen.
+                </li>
+              </ul>
+            </p>
+            <p className="pb-3">
+              Sofern eine der oben genannten Voraussetzungen gegeben ist und
+              eine betroffene Person die Einschränkung von personenbezogenen
+              Daten, die bei mir gespeichert sind, verlangen
+              möchte, kann sie sich hierzu jederzeit an mich wenden.
+            </p>
+            <li>
+              <b>6. Recht auf Datenübertragbarkeit</b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, die sie betreffenden personenbezogenen Daten,
+              welche durch die betroffene Person einem Verantwortlichen
+              bereitgestellt wurden, in einem strukturierten, gängigen und
+              maschinenlesbaren Format zu erhalten. Sie hat außerdem das Recht,
+              diese Daten einem anderen Verantwortlichen ohne Behinderung durch
+              den Verantwortlichen, dem die personenbezogenen Daten
+              bereitgestellt wurden, zu übermitteln, sofern die Verarbeitung auf
+              der Einwilligung gemäß Art. 6 Abs. 1 Buchstabe a DS-GVO oder Art.
+              9 Abs. 2 Buchstabe a DS-GVO oder auf einem Vertrag gemäß Art. 6
+              Abs. 1 Buchstabe b DS-GVO beruht und die Verarbeitung mithilfe
+              automatisierter Verfahren erfolgt, sofern die Verarbeitung nicht
+              für die Wahrnehmung einer Aufgabe erforderlich ist, die im
+              öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt
+              erfolgt, welche dem Verantwortlichen übertragen wurde. Ferner hat
+              die betroffene Person bei der Ausübung ihres Rechts auf
+              Datenübertragbarkeit gemäß Art. 20 Abs. 1 DS-GVO das Recht, zu
+              erwirken, dass die personenbezogenen Daten direkt von einem
+              Verantwortlichen an einen anderen Verantwortlichen übermittelt
+              werden, soweit dies technisch machbar ist und sofern hiervon nicht
+              die Rechte und Freiheiten anderer Personen beeinträchtigt werden.
+              Zur Geltendmachung des Rechts auf Datenübertragbarkeit kann sich
+              die betroffene Person jederzeit an mich wenden.
+            </p>
+            <li>
+              <b>7. Recht auf Widerspruch</b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, aus Gründen, die sich aus ihrer besonderen
+              Situation ergeben, jederzeit gegen die Verarbeitung sie
+              betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs.
+              1 Buchstaben e oder f DS-GVO erfolgt, Widerspruch einzulegen. Dies
+              gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
+              Ich verarbeite die personenbezogenen Daten im
+              Falle des Widerspruchs nicht mehr, es sei denn, ich kann
+              zwingende schutzwürdige Gründe für die Verarbeitung nachweisen,
+              die den Interessen, Rechten und Freiheiten der betroffenen Person
+              überwiegen, oder die Verarbeitung dient der Geltendmachung,
+              Ausübung oder Verteidigung von Rechtsansprüchen. Verarbeite ich
+              personenbezogene Daten, um Direktwerbung zu betreiben, so hat die
+              betroffene Person das Recht, jederzeit
+              Widerspruch gegen die Verarbeitung der personenbezogenen Daten zum
+              Zwecke derartiger Werbung einzulegen. Dies gilt auch für das
+              Profiling, soweit es mit solcher Direktwerbung in Verbindung
+              steht. Widerspricht die betroffene Person mir gegenüber der
+              Verarbeitung für Zwecke der Direktwerbung, so werde ich die
+              personenbezogenen Daten nicht mehr für diese Zwecke verarbeiten.
+              Zudem hat die betroffene Person das Recht, aus Gründen, die sich
+              aus ihrer besonderen Situation
+              ergeben, gegen die sie betreffende Verarbeitung personenbezogener
+              Daten, die bei mir verarbeitet werden, Widerspruch einzulegen, es
+              sei denn, eine solche Verarbeitung ist zur Erfüllung einer im
+              öffentlichen Interesse liegenden Aufgabe erforderlich. Zur
+              Ausübung des Rechts auf Widerspruch kann sich die betroffene
+              Person direkt an mich wenden. Der betroffenen Person steht es
+              ferner frei, im Zusammenhang mit der Nutzung von Diensten der
+              Informationsgesellschaft, ungeachtet der Richtlinie 2002/58/EG,
+              ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben,
+              bei denen technische Spezifikationen verwendet werden.
+            </p>
+            <li>
+              <b>
+                8. Automatisierte Entscheidungen im Einzelfall einschießlich
+                Profiling
+              </b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, nicht einer ausschließlich auf einer
+              automatisierten Verarbeitung — einschließlich Profiling —
+              beruhenden Entscheidung unterworfen zu werden, die ihr gegenüber
+              rechtliche Wirkung entfaltet oder sie in ähnlicher Weise erheblich
+              beeinträchtigt, sofern die Entscheidung (1) nicht für den
+              Abschluss oder die Erfüllung eines Vertrags zwischen der
+              betroffenen Person und dem Verantwortlichen erforderlich ist, oder
+              (2) aufgrund von Rechtsvorschriften der Union oder der
+              Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig
+              ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung
+              der Rechte und Freiheiten sowie der berechtigten Interessen der
+              betroffenen Person enthalten oder (3) mit ausdrücklicher
+              Einwilligung der betroffenen Person erfolgt. Ist die Entscheidung
+              (1) für den Abschluss oder die Erfüllung eines Vertrags zwischen
+              der betroffenen Person und dem Verantwortlichen erforderlich oder
+              (2) erfolgt sie mit ausdrücklicher Einwilligung der betroffenen
+              Person, treffe ich angemessene Maßnahmen, um
+              die Rechte und Freiheiten sowie die berechtigten Interessen der
+              betroffenen Person zu wahren, wozu mindestens das Recht auf
+              Erwirkung des Eingreifens einer Person seitens des
+              Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf
+              Anfechtung der Entscheidung gehört. Möchte die betroffene Person
+              Rechte mit Bezug auf automatisierte Entscheidungen geltend machen,
+              kann sie sich hierzu jederzeit an mich wenden.
+            </p>
+            <li>
+              <b>
+                9. Recht auf Widerruf einer datenschutzrechtlichen Einwilligung
+              </b>
+            </li>
+            <p className="pb-3">
+              Jede von der Verarbeitung personenbezogener Daten betroffene
+              Person hat das vom Europäischen Richtlinien- und Verordnungsgeber
+              gewährte Recht, eine Einwilligung zur Verarbeitung
+              personenbezogener Daten jederzeit zu widerrufen. Möchte die
+              betroffene Person ihr Recht auf Widerruf einer Einwilligung
+              geltend machen, kann sie sich hierzu jederzeit an mich wenden.
+            </p>
+          </ol>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Rechtsgrundlage der Verarbeitung
+          </p>
+          <p className="pb-6">
+            Art. 6 I lit. a DS-GVO dient mir als Rechtsgrundlage
+            für Verarbeitungsvorgänge, bei denen ich eine Einwilligung für einen
+            bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung
+            personenbezogener Daten zur Erfüllung eines Vertrags, dessen
+            Vertragspartei die betroffene Person ist, erforderlich, wie dies
+            beispielsweise bei Verarbeitungsvorgängen der Fall ist, die für eine
+            Lieferung von Waren oder die Erbringung einer sonstigen Leistung
+            oder Gegenleistung notwendig sind, so beruht die Verarbeitung auf
+            Art. 6 I lit. b DS-GVO. Gleiches gilt für solche
+            Verarbeitungsvorgänge die zur Durchführung vorvertraglicher
+            Maßnahmen erforderlich sind, etwa in Fällen von Anfragen zu meinen
+            Produkten oder Leistungen. Unterliege ich einer
+            rechtlichen Verpflichtung durch welche eine Verarbeitung von
+            personenbezogenen Daten erforderlich wird, wie beispielsweise zur
+            Erfüllung steuerlicher Pflichten, so basiert die Verarbeitung auf
+            Art. 6 I lit. c DS-GVO. In seltenen Fällen könnte die Verarbeitung
+            von personenbezogenen Daten erforderlich werden, um lebenswichtige
+            Interessen der betroffenen Person oder einer anderen natürlichen
+            Person zu schützen. Dies wäre beispielsweise der Fall, wenn ein
+            Besucher auf dieser Website betroffen wäre und daraufhin sein
+            Name, sein Alter, seine Krankenkassendaten oder sonstige
+            lebenswichtige Informationen an einen Arzt, ein Krankenhaus oder
+            sonstige Dritte weitergegeben werden müssten. Dann würde die
+            Verarbeitung auf Art. 6 I lit. d DS-GVO beruhen. Letztlich könnten
+            Verarbeitungsvorgänge auf Art. 6 I lit. f DS-GVO beruhen. Auf dieser
+            Rechtsgrundlage basieren Verarbeitungsvorgänge, die von keiner der
+            vorgenannten Rechtsgrundlagen erfasst werden, wenn die Verarbeitung
+            zur Wahrung eines berechtigten Interesses von mir oder
+            eines Dritten erforderlich ist, sofern die Interessen, Grundrechte
+            und Grundfreiheiten des Betroffenen nicht überwiegen. Solche
+            Verarbeitungsvorgänge sind mir insbesondere deshalb gestattet, weil
+            sie durch den Europäischen Gesetzgeber besonders erwähnt wurden. Er
+            vertrat insoweit die Auffassung, dass ein berechtigtes Interesse
+            anzunehmen sein könnte, wenn die betroffene Person ein Kunde des
+            Verantwortlichen ist (Erwägungsgrund 47 Satz 2 DS-GVO).
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Dauer, für die die personenbezogenen Daten gespeichert werden
+          </p>
+          <p className="pb-6">
+            Das Kriterium für die Dauer der Speicherung von personenbezogenen
+            Daten ist die jeweilige gesetzliche Aufbewahrungsfrist. Nach Ablauf
+            der Frist werden die entsprechenden Daten routinemäßig gelöscht,
+            sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung
+            erforderlich sind.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der
+            personenbezogenen Daten; Erforderlichkeit für den Vertragsabschluss;
+            Verpflichtung der betroffenen Person, die personenbezogenen Daten
+            bereitzustellen; mögliche Folgen der Nichtbereitstellung
+          </p>
+          <p className="pb-6">
+            Ich kläre Sie darüber auf, dass die Bereitstellung
+            personenbezogener Daten zum Teil gesetzlich vorgeschrieben ist (z.B.
+            Steuervorschriften) oder sich auch aus vertraglichen Regelungen
+            (z.B. Angaben zum Vertragspartner) ergeben kann. Mitunter kann es zu
+            einem Vertragsschluss erforderlich sein, dass eine betroffene Person
+            mir personenbezogene Daten zur Verfügung stellt, die in der Folge
+            durch mich verarbeitet werden müssen. Die betroffene Person ist
+            beispielsweise verpflichtet, mir personenbezogene Daten
+            bereitzustellen, wenn ich mit ihr einen Vertrag
+            abschließe. Eine Nichtbereitstellung der personenbezogenen Daten
+            hätte zur Folge, dass der Vertrag mit dem Betroffenen nicht
+            geschlossen werden könnte. Vor einer Bereitstellung
+            personenbezogener Daten durch den Betroffenen muss sich der
+            Betroffene an mich wenden. Ich kläre den Betroffenen einzelfallbezogen
+            darüber auf, ob die Bereitstellung der personenbezogenen Daten
+            gesetzlich oder vertraglich vorgeschrieben oder für den
+            Vertragsabschluss erforderlich ist, ob eine Verpflichtung besteht,
+            die personenbezogenen Daten bereitzustellen, und welche Folgen die
+            Nichtbereitstellung der personenbezogenen Daten hätte.
+          </p>
+          <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            Bestehen einer automatisierten Entscheidungsfindung
+          </p>
+          <p className="pb-6">
+            Als verantwortungsbewusste Person verzichte ich auf eine
+            automatische Entscheidungsfindung oder ein Profiling.
+          </p>
+        </div>
+      </SimpleLayout>
+    </>
+  )
+}
