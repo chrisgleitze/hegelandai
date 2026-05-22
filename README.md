@@ -15,4 +15,4 @@ The shortlist emphasizes dialectic, recognition, objective spirit, institutions,
 
 ## Image credit
 
-Hegel portrait: Wikimedia Commons / Library of Congress, public domain mark. Source: <https://commons.wikimedia.org/wiki/File:G._W._F._Hegel_3c30772u_original.jpg>
+Hegel portrait: Jakob Schlesinger, _Bildnis des Philosophen Georg Wilhelm Friedrich Hegel_ (1831), Wikimedia Commons / Public Domain Mark. Small 250px thumbnail used locally. Source: <https://commons.wikimedia.org/wiki/File:1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG>
