@@ -8,37 +8,37 @@ _Sorting: first **books**, then **articles/papers**. Format per entry: bibliogra
 
 ---
 
-## A. Books (Monographs and Core Texts)
+## A. Books (AI-related Monographs and Hegelian Core Texts)
 
-### 1. Hegel, G. W. F. (1812/1816/1832; trans. A. V. Miller 1969): _Science of Logic_. London/New York: Allen & Unwin / Humanities Press.
+### 1. Ma, Michelle (2026): _After Recognition: Hegel, Capital and Artificial Intelligence_. Independently published.
 
-**Type:** Primary text / book
-**Full text:** [Marxists Internet Archive edition](https://www.marxists.org/reference/archive/hegel/works/hl/)
-**Summary:** The indispensable source for Hegel's account of determinate negation, mediation, contradiction, concept, judgment, and teleology. For AI, it gives the conceptual grammar for asking whether LLM outputs merely iterate contrasts or whether anything like self-determining conceptual movement is present. It is the background text for Hegelian readings of prompting, critique, recursion, and synthetic refinement.
+**Type:** Short monograph / direct Hegel-and-AI title
+**Source:** [Hatchards / ISBN 9798248806331](https://www.hatchards.co.uk/book/after-recognition/michelle-ma/9798248806331)
+**Summary:** A direct, contemporary Hegel-and-AI monograph on recognition, capitalism, social mediation, and AI as simulated interlocutor. Because it is short and independently published rather than a canonical university-press study, it should be treated as an exploratory candidate, but it answers the narrow question whether there are book-length works explicitly titled around Hegel and artificial intelligence.
 
-### 2. Hegel, G. W. F. (1807; trans. A. V. Miller 1977): _Phenomenology of Spirit_. Oxford: Oxford University Press.
+### 2. Žižek, Slavoj (2020; paperback 2021): _Hegel in A Wired Brain_. London/New York: Bloomsbury Academic.
 
-**Type:** Primary text / book
+**Type:** Monograph / Hegel and digital subjectivity
+**Source:** [Bloomsbury Academic](https://www.bloomsbury.com/uk/hegel-in-a-wired-brain-9781350264045/)
+**Summary:** Žižek connects Hegel to the posthuman and neuro-digital question of what happens when mental processes are externally linked to machines. The book is not only about current LLMs, but it is one of the strongest academic monographs for Hegelian thinking about digital mediation, machine-readable thought, freedom, and the status of subjectivity under technological externalization.
+
+### 3. Negarestani, Reza (2018): _Intelligence and Spirit_. New York/Falmouth: Sequence Press / Urbanomic.
+
+**Type:** Monograph / AGI, German Idealism, Hegelian spirit
+**Source:** [Sequence Press / Urbanomic](https://www.sequencepress.com/products/intelligence-and-spirit)
+**Summary:** Negarestani develops a systematic philosophy of intelligence by combining artificial general intelligence, Kant, Hegel, Sellars, and Brandom. For a Hegel-and-AI project it is indispensable because it treats intelligence and Geist as socially and functionally articulated rather than as a private mental substance. It is probably the most ambitious book-length bridge between German Idealism and AGI.
+
+### 4. Malabou, Catherine (2019): _Morphing Intelligence: From IQ Measurement to Artificial Brains_. New York: Columbia University Press.
+
+**Type:** Monograph / artificial brains and plasticity
+**Source:** [Columbia University Press](https://cup.columbia.edu/book/morphing-intelligence/9780231187367/)
+**Summary:** Malabou examines transformations of the concept of intelligence from psychometrics to neuroscience and artificial brains. The book is not titled as a Hegel monograph, but Malabou's work is deeply shaped by Hegelian dialectics and plasticity; for AI it is useful because it connects the natural/artificial boundary, brain plasticity, and the cybernetic imagination of intelligence.
+
+### 5. Hegel, G. W. F. (1807; trans. A. V. Miller 1977): _Phenomenology of Spirit_. Oxford: Oxford University Press.
+
+**Type:** Primary text / Hegelian core text
 **Full text:** [Marxists Internet Archive edition](https://www.marxists.org/reference/archive/hegel/works/ph/phconten.htm)
-**Summary:** The central text for self-consciousness, recognition, lordship and bondage, alienation, recollection, and Spirit. For Hegel and AI, it is crucial because machine intelligence becomes philosophically interesting not only as computation but as something embedded in practices of recognition, dependence, labor, language, and social mediation.
-
-### 3. Hegel, G. W. F. (1821; ed. Allen W. Wood, trans. H. B. Nisbet 1991): _Elements of the Philosophy of Right_. Cambridge: Cambridge University Press.
-
-**Type:** Primary text / book
-**Source:** [Cambridge University Press](https://www.cambridge.org/highereducation/books/hegel-elementsof-the-philosophy-of-right/09AE6110FE96266A206924435BAF85C5)
-**Summary:** Hegel's mature account of right, morality, ethical life, civil society, corporations, and the state. It is the most important source for translating Hegelian AI ethics into institutions: responsibility is not only an individual property but is mediated by social roles, public norms, law, and practices of accountability.
-
-### 4. Brandom, Robert B. (2019): _A Spirit of Trust: A Reading of Hegel's Phenomenology_. Cambridge, MA/London: Harvard University Press.
-
-**Type:** Secondary literature / book
-**Source:** [Harvard / De Gruyter Brill](https://www.degruyterbrill.com/document/doi/10.4159/9780674239067/html)
-**Summary:** Brandom reconstructs Hegel in terms of recognition, normativity, inferential articulation, and the social constitution of conceptual content. For AI, this is essential background for distinguishing token prediction from participation in a community of giving and asking for reasons, and for asking whether AI can be treated as a normative scorekeeper or only as an instrument inside human practices.
-
-### 5. Pippin, Robert B. (2018): _Hegel's Realm of Shadows: Logic as Metaphysics in The Science of Logic_. Chicago/London: University of Chicago Press.
-
-**Type:** Secondary literature / book
-**Source:** [University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/H/bo29203261.html)
-**Summary:** Pippin offers a contemporary reading of Hegel's Logic as an account of determinacy, not as a mystical recipe or simple thesis-antithesis-synthesis schema. This is valuable for AI because it helps discipline loose talk of “dialectical” prompting: the relevant issue is whether a system can make determinate commitments intelligible, revise them, and integrate them into a rational whole.
+**Summary:** The central source for self-consciousness, recognition, lordship and bondage, alienation, recollection, and Spirit. For Hegel and AI, it is crucial because machine intelligence becomes philosophically interesting not only as computation but as something embedded in practices of recognition, dependence, labor, language, and social mediation.
 
 ## B. Articles and Papers
 
