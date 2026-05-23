@@ -1,6 +1,11 @@
 import fs from 'fs'
 import path from 'path'
 
+import {
+  LITERATURE_CATEGORIES,
+  type LiteratureCategory,
+} from '@/lib/literatureCategories'
+
 export type LiteratureLink = {
   label: string
   href: string
@@ -10,6 +15,8 @@ export type LiteratureEntry = {
   id: string
   number: number
   title: string
+  type: string
+  categories: LiteratureCategory[]
   sourcesLabel: string
   sources: LiteratureLink[]
   summary: string
@@ -60,7 +67,7 @@ function stripMarkdown(input: string): string {
 function extractLinks(input: string): LiteratureLink[] {
   return Array.from(input.matchAll(/\[([^\]]+)]\((https?:\/\/[^)]+)\)/g)).map(
     (match) => ({
-      label: stripMarkdown(match[1]),
+      label: stripMarkdown(match[1]).replace(/\s*\([^)]*\)/g, '').trim(),
       href: match[2],
     }),
   )
@@ -73,11 +80,24 @@ function getField(lines: string[], label: string): string {
   return line.trim().slice(prefix.length).trim()
 }
 
+function isLiteratureCategory(input: string): input is LiteratureCategory {
+  return LITERATURE_CATEGORIES.some((category) => category === input)
+}
+
+function parseCategories(input: string): LiteratureCategory[] {
+  return input
+    .split(/[;,]/)
+    .map((category) => category.trim())
+    .filter(isLiteratureCategory)
+}
+
 function parseEntry(
   number: number,
   title: string,
   lines: string[],
 ): LiteratureEntry {
+  const type = getField(lines, 'Type')
+  const categories = parseCategories(getField(lines, 'Category'))
   const summary = getField(lines, 'Summary')
   const sourcesLabel =
     SOURCE_LABELS.find((label) => getField(lines, label).length > 0) ?? 'Source'
@@ -87,6 +107,8 @@ function parseEntry(
     id: `entry-${number}-${slugify(stripMarkdown(title)).slice(0, 54)}`,
     number,
     title,
+    type,
+    categories,
     sourcesLabel,
     sources,
     summary,

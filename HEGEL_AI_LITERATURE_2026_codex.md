@@ -13,7 +13,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 ### 1. Ma, Michelle (2026): _After Recognition: Hegel, Capital and Artificial Intelligence_. Independently published.
 
 **Type:** Short monograph / direct Hegel-and-AI title
-**Source:** [Hatchards / ISBN 9798248806331](https://www.hatchards.co.uk/book/after-recognition/michelle-ma/9798248806331)
+**Source:** [Hatchards](https://www.hatchards.co.uk/book/after-recognition/michelle-ma/9798248806331)
 **Summary:** A direct, contemporary Hegel-and-AI monograph on recognition, capitalism, social mediation, and AI as simulated interlocutor. Because it is short and independently published rather than a canonical university-press study, it should be used cautiously, but it is currently one of the few book-length works whose title explicitly joins Hegel, capital, and artificial intelligence.
 
 ### 2. Pasquinelli, Matteo (2023): _The Eye of the Master: A Social History of Artificial Intelligence_. London/New York: Verso.

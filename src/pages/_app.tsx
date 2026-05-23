@@ -40,7 +40,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
 
       <div className="relative">
         <Header />
-        <main>
+        <main id="page-top" className="scroll-mt-20">
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>
         <Footer />
