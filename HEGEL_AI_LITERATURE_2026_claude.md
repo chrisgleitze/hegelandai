@@ -430,7 +430,15 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Source:** [Cabinet Magazine](https://www.cabinetmagazine.org/issues/65/weatherby.php)
 **Summary:** Traces how Gotthard Günther synthesized Hegel's dialectical logic with cybernetics at the Biological Computer Laboratory (Urbana), and how Soviet researchers simultaneously proposed "Hegelian computing" via ternary logic. The essential genealogical essay for understanding the historical channel through which Hegel entered computing and AI theory.
 
-### 53. Gertz, Nolen (2016): "The Master/iSlave Dialectic: Post (Hegelian) Phenomenology and the Ethics of Technology", in: Seibt, Johanna / Nørskov, Marco / Andersen, Søren Schack (eds.): _What Social Robots Can and Should Do_. Amsterdam: IOS Press, pp. 136–144.
+### 53. Delhey, Matthew J. (2018): "Machine Automation and the Critique of Abstract Labor in Hegel's Mature Social Theory". Working paper, University of Toronto.
+
+**Type:** Working paper
+**Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Social Freedom & Ethical Life
+**Source:** [Academia.edu](https://www.academia.edu/38463240/Machine_Automation_and_the_Critique_of_Abstract_Labor_in_Hegels_Mature_Social_Theory)
+**Summary:** Argues that Hegel's endorsement of machine automation in the _Philosophy of Right_ functions as a critique of abstract labor that prevents workers' rational participation in ethical life. Rigorous Hegel scholarship that grounds the political-economic AI critique (Steinhoff, Pasquinelli) directly in Hegel's own text.
+
+### 54. Gertz, Nolen (2016): "The Master/iSlave Dialectic: Post (Hegelian) Phenomenology and the Ethics of Technology", in: Seibt, Johanna / Nørskov, Marco / Andersen, Søren Schack (eds.): _What Social Robots Can and Should Do_. Amsterdam: IOS Press, pp. 136–144.
 
 **Type:** Peer-reviewed book chapter
 **Category:** Practical Philosophy
@@ -438,7 +446,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Source:** [IOS Press](https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-708-5-136)
 **Summary:** Applies Hegel's phenomenological account of self-other relations to human–technology relations, showing how robots can occupy "the other's" structural role in Hegelian recognition. A key early contribution to the Hegelian strand of robophilosophy, with implications for social robot design ethics.
 
-### 54. Coeckelbergh, Mark (2015): "The Tragedy of the Master: Automation, Vulnerability, and Distance", in: _Ethics and Information Technology_ 17.3, pp. 219–229.
+### 55. Coeckelbergh, Mark (2015): "The Tragedy of the Master: Automation, Vulnerability, and Distance", in: _Ethics and Information Technology_ 17.3, pp. 219–229.
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
@@ -446,7 +454,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Source:** [Springer Nature Link](https://link.springer.com/article/10.1007/s10676-015-9377-6)
 **Summary:** Uses Hegel's master–slave dialectic to argue that the danger of automation is not that humans become slaves to machines, but that we remain masters while becoming vulnerable, alienated, and dependent on machine intermediaries. One of the most widely cited philosophy-of-technology articles applying Hegel to AI and robotics.
 
-### 55. Marchetti, Igor / Koster, Ernst H. W. (2014): "Brain and Intersubjectivity: A Hegelian Hypothesis on the Self-Other Neurodynamics", in: _Frontiers in Human Neuroscience_ 8, Art. 11.
+### 56. Marchetti, Igor / Koster, Ernst H. W. (2014): "Brain and Intersubjectivity: A Hegelian Hypothesis on the Self-Other Neurodynamics", in: _Frontiers in Human Neuroscience_ 8, Art. 11.
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
@@ -454,7 +462,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Source:** [Frontiers](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00011/full)
 **Summary:** Applies Hegel's theory of intersubjectivity (master–slave, recognition) to neuroscience of self-other cognition — mirror neurons, default mode network, neural correlates of social awareness. A bridge text between Hegelian philosophy of mind and cognitive neuroscience, relevant for any Hegel-and-AI argument that draws on brain-inspired computing.
 
-### 56. Crisafi, Anthony / Gallagher, Shaun (2010): "Hegel and the Extended Mind", in: _AI & Society_ 25.1, pp. 123–129.
+### 57. Crisafi, Anthony / Gallagher, Shaun (2010): "Hegel and the Extended Mind", in: _AI & Society_ 25.1, pp. 123–129.
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
@@ -462,21 +470,13 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Source:** [Springer Nature Link](https://link.springer.com/article/10.1007/s00146-009-0239-9)
 **Summary:** Published directly in _AI & Society_, this article examines Clark and Chalmers' extended-mind thesis through Hegel's concept of objective spirit, asking whether social institutions and external cognitive tools can serve as genuine cognitive scaffolding. An early bridge between the analytic extended-mind debate and Continental Hegel scholarship in the main Hegel-and-AI venue.
 
-### 57. Winfield, Richard Dien (2009): "Hegel, Mind, and Mechanism: Why Machines Have No Psyche, Consciousness, or Intelligence", in: _Bulletin of the Hegel Society of Great Britain_ Nos. 59/60, pp. 1–18.
+### 58. Winfield, Richard Dien (2009): "Hegel, Mind, and Mechanism: Why Machines Have No Psyche, Consciousness, or Intelligence", in: _Bulletin of the Hegel Society of Great Britain_ Nos. 59/60, pp. 1–18.
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
 **Topic:** Philosophy of Mind & Subjectivity; Life, Organism & Embodiment
 **Source:** [Cambridge Core / Hegel Bulletin](https://www.cambridge.org/core/journals/hegel-bulletin)
 **Summary:** Uses Hegel's account of subjective spirit to argue categorically that machines cannot have psyche, consciousness, or intelligence, because these require a self-determining organic life that no mechanism can provide. The foundational Hegel-scholarship case for the anti-AI position, predating and grounding the subsequent Suther and Thamrin arguments.
-
-### 58. Delhey, Matthew J.: "Machine Automation and the Critique of Abstract Labor in Hegel's Mature Social Theory". Working paper, University of Toronto.
-
-**Type:** Working paper
-**Category:** Practical Philosophy
-**Topic:** Labor, Automation & Political Economy; Social Freedom & Ethical Life
-**Source:** [Academia.edu](https://www.academia.edu/38463240/Machine_Automation_and_the_Critique_of_Abstract_Labor_in_Hegels_Mature_Social_Theory)
-**Summary:** Argues that Hegel's endorsement of machine automation in the _Philosophy of Right_ functions as a critique of abstract labor that prevents workers' rational participation in ethical life. Rigorous Hegel scholarship that grounds the political-economic AI critique (Steinhoff, Pasquinelli) directly in Hegel's own text.
 
 ---
 
