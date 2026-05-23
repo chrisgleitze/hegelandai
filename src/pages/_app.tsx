@@ -25,6 +25,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
     <>
       <Head>
         <title>Hegel and AI</title>
+        <link rel="icon" type="image/jpeg" href="/images/hegel-profile.jpg" />
         <meta property="og:title" content="Hegel and AI" />
         <meta
           property="og:description"

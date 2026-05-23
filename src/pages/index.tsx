@@ -7,12 +7,15 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { LiteratureOverview } from '@/components/LiteratureOverview'
 import type { LiteratureData } from '@/lib/literature'
+import { useScrollProgress } from '@/lib/useScrollProgress'
 
 type HomeProps = {
   data: LiteratureData
 }
 
 function Hero() {
+  const portraitProgress = useScrollProgress()
+
   return (
     <Container className="mt-16 sm:mt-24">
       <div className="flex max-w-3xl items-center justify-between gap-6">
@@ -26,7 +29,14 @@ function Hero() {
           height={192}
           priority
           unoptimized
-          className="h-32 w-32 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-white/10 transition duration-200 ease-out hover:-translate-y-px hover:ring-teal-400/30 sm:h-48 sm:w-48"
+          style={{
+            opacity: 1 - portraitProgress * 0.45,
+            transform: `translate3d(0, ${portraitProgress * -28}px, 0) scale(${
+              1 - portraitProgress * 0.34
+            })`,
+            transformOrigin: 'top right',
+          }}
+          className="h-32 w-32 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-white/10 transition-[box-shadow,opacity,transform] duration-200 ease-out hover:-translate-y-px hover:ring-teal-400/30 sm:h-48 sm:w-48"
         />
       </div>
     </Container>
