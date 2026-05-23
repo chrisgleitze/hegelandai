@@ -4,7 +4,11 @@ import clsx from "clsx";
 import { Card } from "@/components/Card";
 import { Container } from "@/components/Container";
 import { LiteratureStats } from "@/components/LiteratureStats";
-import { LITERATURE_CATEGORIES } from "@/lib/literatureCategories";
+import {
+  LITERATURE_CATEGORIES,
+  LITERATURE_TOPICS,
+  TOPICS_BY_CATEGORY,
+} from "@/lib/literatureCategories";
 import { inlineMarkdownToHtml } from "@/lib/markdown";
 import type {
   LiteratureData,
@@ -12,7 +16,10 @@ import type {
   LiteratureLink,
   LiteratureSection,
 } from "@/lib/literature";
-import type { LiteratureCategory } from "@/lib/literatureCategories";
+import type {
+  LiteratureCategory,
+  LiteratureTopic,
+} from "@/lib/literatureCategories";
 
 function MarkdownSpan({
   text,
@@ -208,20 +215,30 @@ function LiteratureSectionView({ section }: { section: LiteratureSection }) {
 
 
 type ActiveLiteratureCategory = "All" | LiteratureCategory;
+type ActiveLiteratureTopic = "All" | LiteratureTopic;
 
 function LiteratureCategoryFilter({
   activeCategory,
+  activeTopic,
   categoryCounts,
+  topicCounts,
   onCategoryChange,
+  onTopicChange,
 }: {
   activeCategory: ActiveLiteratureCategory;
+  activeTopic: ActiveLiteratureTopic;
   categoryCounts: Record<ActiveLiteratureCategory, number>;
+  topicCounts: Record<ActiveLiteratureTopic, number>;
   onCategoryChange: (category: ActiveLiteratureCategory) => void;
+  onTopicChange: (topic: ActiveLiteratureTopic) => void;
 }) {
   const categories: ActiveLiteratureCategory[] = [
     "All",
     ...LITERATURE_CATEGORIES,
   ];
+  const currentTopics: LiteratureTopic[] =
+    activeCategory !== "All" ? TOPICS_BY_CATEGORY[activeCategory] : [];
+  const hasTopics = currentTopics.length > 0;
 
   return (
     <div className="mt-10 flex justify-center">
@@ -260,6 +277,57 @@ function LiteratureCategoryFilter({
             );
           })}
         </div>
+
+        <div
+          className={clsx(
+            "grid transition-[grid-template-rows,opacity] duration-300 ease-out",
+            hasTopics
+              ? "grid-rows-[1fr] opacity-100"
+              : "grid-rows-[0fr] opacity-0",
+          )}
+        >
+          <div className="overflow-hidden">
+            <div className="mt-5 border-t border-teal-400/10 pt-4">
+              <p className="text-center text-xs font-semibold uppercase tracking-[0.22em] text-teal-300/60">
+                Filter by philosophical topic
+              </p>
+              <div className="mt-3 flex flex-wrap justify-center gap-2.5">
+                {([
+                  "All" as const,
+                  ...currentTopics,
+                ] as ActiveLiteratureTopic[]).map((topic) => {
+                  const isActive = activeTopic === topic;
+
+                  return (
+                    <button
+                      key={topic}
+                      type="button"
+                      onClick={() => onTopicChange(topic)}
+                      className={clsx(
+                        "inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-xs font-medium transition sm:text-sm",
+                        isActive
+                          ? "bg-teal-200 text-zinc-950 shadow-sm shadow-teal-950/20"
+                          : "bg-zinc-800 text-zinc-300 ring-1 ring-zinc-700/70 hover:bg-zinc-700 hover:text-zinc-100",
+                      )}
+                    >
+                      <span>{topic}</span>
+                      <span
+                        className={clsx(
+                          "rounded-full px-2 py-0.5 text-[0.7rem]",
+                          isActive
+                            ? "bg-zinc-950/10 text-zinc-900"
+                            : "bg-zinc-950/40 text-zinc-400",
+                        )}
+                      >
+                        {topicCounts[topic]}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -273,6 +341,14 @@ export function LiteratureOverview({
   const sections = data.sections;
   const [activeCategory, setActiveCategory] =
     useState<ActiveLiteratureCategory>("All");
+  const [activeTopic, setActiveTopic] =
+    useState<ActiveLiteratureTopic>("All");
+
+  function handleCategoryChange(category: ActiveLiteratureCategory) {
+    setActiveCategory(category);
+    setActiveTopic("All");
+  }
+
   const categoryCounts = useMemo(() => {
     const counts = {
       All: data.totalEntries,
@@ -290,31 +366,59 @@ export function LiteratureOverview({
 
     return counts;
   }, [data.totalEntries, sections]);
-  const filteredSections = useMemo(() => {
-    if (activeCategory === "All") return sections;
+  // Topic counts are scoped to the active category so the numbers stay meaningful.
+  const topicCounts = useMemo(() => {
+    const counts = {
+      All: 0,
+      ...Object.fromEntries(LITERATURE_TOPICS.map((topic) => [topic, 0])),
+    } as Record<ActiveLiteratureTopic, number>;
 
+    sections.forEach((section) => {
+      section.entries.forEach((entry) => {
+        if (
+          activeCategory !== "All" &&
+          !entry.categories.includes(activeCategory)
+        ) {
+          return;
+        }
+        counts["All"] += 1;
+        entry.topics.forEach((topic) => {
+          counts[topic] += 1;
+        });
+      });
+    });
+
+    return counts;
+  }, [activeCategory, sections]);
+
+  const filteredSections = useMemo(() => {
     return sections
       .map((section) => ({
         ...section,
-        entries: section.entries.filter((entry) =>
-          entry.categories.includes(activeCategory),
-        ),
+        entries: section.entries.filter((entry) => {
+          const matchesCategory =
+            activeCategory === "All" ||
+            entry.categories.includes(activeCategory);
+          const matchesTopic =
+            activeTopic === "All" || entry.topics.includes(activeTopic);
+
+          return matchesCategory && matchesTopic;
+        }),
       }))
       .filter((section) => section.entries.length > 0);
-  }, [activeCategory, sections]);
+  }, [activeCategory, activeTopic, sections]);
 
   return (
     <Container className="mt-16 sm:mt-24">
       <div id="literatur" className="scroll-mt-28">
-        <div className="max-w-2xl">
+        <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
             Literature
           </h2>
         </div>
 
-        <div className="mt-6 flex flex-wrap items-center gap-3 text-sm text-zinc-400">
-          <span>jump to</span>
-          <ul className="flex flex-wrap gap-3">
+        <div className="mt-6 flex justify-center text-sm text-zinc-400">
+          <ul className="flex flex-wrap justify-center gap-3">
             {filteredSections.map((section) => (
               <li key={section.id}>
                 <a
@@ -328,18 +432,6 @@ export function LiteratureOverview({
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href="#page-bottom"
-                aria-label="Jump to bottom of page"
-                className="inline-flex items-center gap-2 rounded-full border border-zinc-700/40 bg-zinc-800/60 px-3 py-1.5 text-zinc-300 transition hover:border-teal-400/40 hover:text-teal-300"
-              >
-                <span className="font-semibold text-zinc-100">
-                  Bottom of Page
-                </span>
-                <span aria-hidden="true">↓</span>
-              </a>
-            </li>
           </ul>
         </div>
 
@@ -347,8 +439,11 @@ export function LiteratureOverview({
 
         <LiteratureCategoryFilter
           activeCategory={activeCategory}
+          activeTopic={activeTopic}
           categoryCounts={categoryCounts}
-          onCategoryChange={setActiveCategory}
+          topicCounts={topicCounts}
+          onCategoryChange={handleCategoryChange}
+          onTopicChange={setActiveTopic}
         />
 
         <div className="mt-12 space-y-16 sm:mt-16 sm:space-y-20">

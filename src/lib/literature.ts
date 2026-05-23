@@ -3,7 +3,9 @@ import path from 'path'
 
 import {
   LITERATURE_CATEGORIES,
+  LITERATURE_TOPICS,
   type LiteratureCategory,
+  type LiteratureTopic,
 } from '@/lib/literatureCategories'
 
 export type LiteratureLink = {
@@ -17,6 +19,7 @@ export type LiteratureEntry = {
   title: string
   type: string
   categories: LiteratureCategory[]
+  topics: LiteratureTopic[]
   sourcesLabel: string
   sources: LiteratureLink[]
   summary: string
@@ -91,6 +94,17 @@ function parseCategories(input: string): LiteratureCategory[] {
     .filter(isLiteratureCategory)
 }
 
+function isLiteratureTopic(input: string): input is LiteratureTopic {
+  return LITERATURE_TOPICS.some((topic) => topic === input)
+}
+
+function parseTopics(input: string): LiteratureTopic[] {
+  return input
+    .split(';')
+    .map((topic) => topic.trim())
+    .filter(isLiteratureTopic)
+}
+
 function parseEntry(
   number: number,
   title: string,
@@ -98,6 +112,7 @@ function parseEntry(
 ): LiteratureEntry {
   const type = getField(lines, 'Type')
   const categories = parseCategories(getField(lines, 'Category'))
+  const topics = parseTopics(getField(lines, 'Topic'))
   const summary = getField(lines, 'Summary')
   const sourcesLabel =
     SOURCE_LABELS.find((label) => getField(lines, label).length > 0) ?? 'Source'
@@ -109,6 +124,7 @@ function parseEntry(
     title,
     type,
     categories,
+    topics,
     sourcesLabel,
     sources,
     summary,

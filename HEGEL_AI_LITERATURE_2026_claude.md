@@ -14,6 +14,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Short monograph / direct Hegel-and-AI title
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** Recognition & Intersubjectivity; Philosophy of Technology & Media; Labor, Automation & Political Economy
 **Source:** [Hatchards](https://www.hatchards.co.uk/book/after-recognition/michelle-ma/9798248806331)
 **Summary:** A direct contemporary Hegel-and-AI monograph on recognition, capitalism, social mediation, and AI as simulated interlocutor. Because it is short and independently published rather than a canonical university-press study, it should be used cautiously; nevertheless, it is one of the few book-length works whose title explicitly joins Hegel, capital, and artificial intelligence.
 
@@ -21,6 +22,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / cultural theory of AI, German Idealism, cybernetics genealogy
 **Category:** Theoretical Philosophy
+**Topic:** Language, Inferentialism & Spirit; Cybernetics, Recursivity & Computation; Philosophy of Technology & Media
 **Source:** [University of Minnesota Press](https://www.upress.umn.edu/)
 **Summary:** Weatherby argues that generative AI is cultural rather than cognitive, drawing on structuralist linguistic theory and the German Idealist heritage of cybernetics. The book continues his project of recovering the suppressed Hegelian genealogy of computing, tracing how Hegel entered AI theory through Gotthard Günther and the Biological Computer Laboratory.
 
@@ -28,6 +30,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Edited volume / cybernetics, German Idealism, AI history
 **Category:** Theoretical Philosophy
+**Topic:** Cybernetics, Recursivity & Computation; Philosophy of Technology & Media
 **Source:** [Hanart Press](https://philosophyandtechnology.network/3735/cybernetics-for-the-21st-century-vol-1/)
 **Summary:** Hui's first edited volume reconstructs the epistemology of cybernetics across philosophical traditions. Several chapters read AI not as a self-standing technology but as a stage in a longer history of organism, mechanism, and self-grounding system — a move that makes Hegel a structural reference even when he is not the explicit topic.
 
@@ -35,6 +38,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / political philosophy of AI, sovereignty, planetary thought
 **Category:** Practical Philosophy
+**Topic:** Objective Spirit, Institutions & Governance; Philosophy of Technology & Media
 **Source:** [University of Minnesota Press](https://www.upress.umn.edu/9781517917418/machine-and-sovereignty/)
 **Summary:** Hui extends his organology project into a theory of "megamachines" and planetary thinking, treating political form (polis, empire, state) as itself a technological phenomenon. Hegel's political state and Schmitt's Großraum are unpacked as forms of "political epistemology" that the rise of planetary-scale AI infrastructure now contests, opening the space for technodiversity as a regulative idea.
 
@@ -42,6 +46,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Hegelian-Lacanian materialism with an explicit AI chapter
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Philosophy of Mind & Subjectivity; Language, Inferentialism & Spirit
 **Source:** [Bloomsbury Academic](https://www.bloomsbury.com/uk/christian-atheism-9781350409316/)
 **Summary:** Žižek's most recent book places AI inside his Hegelian-Lacanian "dialectical materialism". Chapter 5 argues that the proper question is not whether LLMs are "smart enough" but whether they can attain the constitutive stupidity, finitude, and self-relating negativity of Hegelian spirit. It is the most visible recent example of a high-profile Hegelian author treating chatbots and post-humanism as a single theological-philosophical symptom.
 
@@ -49,6 +54,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / social history of AI, labor, Hegelian-Marxist critique
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Philosophy of Technology & Media
 **Source:** [Verso Books](https://www.versobooks.com/products/735-the-eye-of-the-master)
 **Summary:** Pasquinelli reconstructs AI not as the imitation of biological intelligence but as the historical outcome of labor automation and the mechanization of collective knowledge, running from Babbage through cybernetics to deep learning. "The inner code of AI" is treated as encoded social relations rather than as cognitive science, making this the single most useful recent companion to a Hegelian-Marxist treatment of machine intelligence.
 
@@ -56,6 +62,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Marxist political economy of AI, labor
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Social Freedom & Ethical Life
 **Source:** [Palgrave Macmillan / Springer](https://link.springer.com/book/10.1007/978-3-030-71689-9)
 **Summary:** Steinhoff offers a sustained Marxist analysis of the contemporary AI industry, treating AI primarily as an automation technology designed to capture the skills and knowledge of labor. The Hegelian categories of objectification, alienation, and the "general intellect" are operative throughout, making it the most rigorous monograph for grounding a Hegel-and-AI argument in actual political economy rather than only textual analogy.
 
@@ -63,6 +70,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Hegel and digital subjectivity
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Dialectics & Negativity; Philosophy of Technology & Media
 **Source:** [Bloomsbury Academic](https://www.bloomsbury.com/uk/hegel-in-a-wired-brain-9781350264045/)
 **Summary:** Žižek asks what Hegel would have said about a "wired brain" — a direct neural-digital coupling that makes mental processes externally readable. The book treats posthumanism as a problem internal to Hegelian dialectics, engaging the digital police state, the technological singularity, the impotence of AI before the symbolic dimension of language, and the status of freedom under externalized cognition.
 
@@ -70,6 +78,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Hegel exegesis, philosophy of life and mind
 **Category:** Theoretical Philosophy
+**Topic:** Life, Organism & Embodiment; Philosophy of Mind & Subjectivity
 **Source:** [Oxford University Press](https://global.oup.com/academic/product/hegels-concept-of-life-9780190947613)
 **Summary:** Winner of the 2021 Journal of the History of Philosophy Book Prize, this monograph establishes that life — not reason alone — is the central category of Hegel's logic. It is the load-bearing philosophical background for the argument (Suther, Thamrin) that genuine AI would require artificial life, not just artificial cognition.
 
@@ -77,6 +86,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Hegel exegesis, inferentialism, philosophical background for AI normativity
 **Category:** Theoretical Philosophy
+**Topic:** Language, Inferentialism & Spirit; Recognition & Intersubjectivity
 **Source:** [Harvard University Press](https://www.hup.harvard.edu/books/9780674976818)
 **Summary:** Brandom's three-decade reading of the _Phenomenology_ recasts Hegel as an inferentialist of conceptual content, grounded in mutual recognition and the social practice of giving and asking for reasons. It is the load-bearing background for Negarestani, Gangle, Malík/Hubálek, and the LLM-as-discursive-agent debates, because it converts Hegelian Geist into a normative-pragmatic, multi-agent infrastructure of inference.
 
@@ -84,6 +94,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / philosophy of intelligence, plasticity, artificial brains
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Life, Organism & Embodiment; Philosophy of Technology & Media
 **Source:** [Columbia University Press](https://cup.columbia.edu/book/morphing-intelligence/9780231187367/)
 **Summary:** Malabou traces three regimes of "intelligence" — empirical-genetic IQ, epigenetic plasticity, and the artificial-brain paradigm — and argues that the boundary between natural and artificial intelligence is dissolving from the inside. Plasticity is her partly Hegelian rewriting of mind as a material and historical formation/de-formation rather than a substance.
 
@@ -91,6 +102,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / German Idealism, cybernetics, organology, AI
 **Category:** Theoretical Philosophy
+**Topic:** Cybernetics, Recursivity & Computation; Dialectics & Negativity; Philosophy of Technology & Media
 **Source:** [Rowman & Littlefield](https://rowman.com/ISBN/9781786600530/Recursivity-and-Contingency)
 **Summary:** Hui reconstructs a philosophical trajectory from Kant's organic logic through Schelling and Hegel to Wiener, Gödel, and twentieth-century cybernetics, and from there into algorithmic AI. Recursivity is read as a break from Cartesian mechanism, and contingency as the structural condition under which a recursive system develops at all — the strongest contemporary bridge between German Idealism's logic of self-grounding and the architecture of machine learning.
 
@@ -98,6 +110,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Marxist-Hegelian critique of AI capitalism
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy
 **Source:** [Pluto Press](https://www.plutobooks.com/9780745338576/inhuman-power/)
 **Summary:** A three-author Marxist analysis of AI as a force of capital, treating machine learning as the latest stage of the "general intellect" and arguing that AI capitalism threatens both labour and the form of the human itself. The Hegelian dimension runs through Marx: alienation, objectification, and the dialectic of master and servant are reactivated for AI-mediated production.
 
@@ -105,6 +118,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / AGI, German Idealism, Hegelian Geist, Sellars-Brandom pragmatism
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Language, Inferentialism & Spirit; AI Ethics & Alignment
 **Source:** [Sequence Press / Urbanomic](https://www.sequencepress.com/products/intelligence-and-spirit)
 **Summary:** Negarestani synthesises Kantian transcendental psychology, Hegelian Geist, and Sellars-Brandom pragmatism into a systematic philosophy of intelligence designed to be commensurable with the project of AGI. Intelligence is reconstructed not as a private mental substance but as a socially, linguistically, and functionally articulated multi-agent activity that has to be historically realised — the most ambitious book-length philosophical bridge between German Idealism and AGI in English.
 
@@ -112,6 +126,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Hegel reception, dialectical materialism, philosophical background for current Hegel-AI debates
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Recognition & Intersubjectivity
 **Source:** [Columbia University Press](https://cup.columbia.edu/book/a-new-german-idealism/9780231183949/)
 **Summary:** Johnston defends a "transcendental materialism" that develops the Hegelian legacy against and through Žižek's reading, with extended attention to recognition, negativity, and the dialectic of nature and spirit. Not on AI directly, it is the most important contemporary defence of the robustly Hegelian dialectical materialism that is the philosophical backbone of much of the recent Hegel-and-AI literature.
 
@@ -119,17 +134,19 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Monograph / Hegel philosophy of mind, anti-computationalism
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Life, Organism & Embodiment
 **Source:** [Palgrave Macmillan](https://link.springer.com/book/9781137379849)
 **Summary:** Winfield rethinks Hegel's entire account of subjective spirit — psyche, consciousness, and intelligence — and argues systematically that mental activity is not reducible to computation and that machines can never feel, be conscious, or think. The book is the extended companion to his shorter anti-AI argument in the _Hegel Bulletin_ (2009), and the most rigorous Hegel-scholarship basis for the position that AI cannot achieve genuine mind.
 
 ---
 
-## B. Articles (Journal Papers, Preprints, Essays)
+## B. Articles (Papers, Preprints etc.)
 
 ### 17. Bartonek, Anders (2026): "The Hegel Test", in: _Philosophy & Social Criticism_, OnlineFirst.
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** Dialectics & Negativity; Recognition & Intersubjectivity; Moral Agency & Responsibility
 **Source:** [SAGE Journals](https://journals.sagepub.com/doi/10.1177/01914537261416867)
 **Summary:** Bartonek proposes a Hegelian alternative to the Turing test and performance-based benchmarks. The "Hegel Test" is built from three structures of the _Phenomenology_: the social dialectic of recognition, the labor-mediated relation to nature, and sublation (_Aufhebung_). Currently the most explicit peer-reviewed attempt to set genuinely Hegelian criteria for what would count as superintelligence.
 
@@ -137,6 +154,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Technical-philosophical preprint, with empirical evaluation
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** Recognition & Intersubjectivity; Philosophy of Mind & Subjectivity; Education & Human-AI Practice
 **Full text:** [arXiv](https://arxiv.org/abs/2603.10450)
 **Summary:** Magee builds an experimental AI tutoring system grounded in Hegelian recognition and Freudian ego/superego structure. A factorial evaluation across three current LLMs reports large, model-independent effect sizes (d=1.34–1.92) traced to recognition-enhanced prompting. Unusual because it operationalises recognition as a measurable variable inside LLM systems rather than only as a philosophical analogy.
 
@@ -144,6 +162,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Moral Agency & Responsibility; Recognition, Bias & Social Robots; Social Freedom & Ethical Life
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s43681-025-00853-y)
 **Summary:** Thamrin argues that current AI fails a Hegelian moral test because moral reasoning demands embodied participation in a linguistic and historical community for mutual recognition. AI lacks the formative tension and self-negation through which consciousness transforms raw experience into self-understanding, making it a useful Hegelian counter-argument to the "AI as moral agent" position.
 
@@ -151,6 +170,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Aesthetics & Cultural AI
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s00146-025-02265-2)
 **Summary:** Berry develops a critical theory of AI under the heading of the "algorithmic condition", in which machine-generated cultural production reshapes the categories of authorship and consciousness. Three notions are introduced — "Inversion", "automimetric production", and "constellational analysis" — alongside "post-consciousness" as a successor to false consciousness under computational capitalism.
 
@@ -158,6 +178,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed commentary article
 **Category:** Theoretical Philosophy
+**Topic:** Aesthetics & Cultural AI; Recognition & Intersubjectivity
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s00146-025-02275-0); open-access copy on the [Cambridge Apollo repository](https://www.repository.cam.ac.uk/items/9031ac55-0dcb-4bd6-bc3b-1d79dafb5552)
 **Summary:** Pahlevan applies Hegel's image of "the wound" (_die Wunde_) to the cultural reception of music-generative AI among contemporary producers. Unusually strong resistance to generative AI is read not as a complaint about output quality but as a reaction against the loss of the artistic process, which is constitutive of artistic subjectivity.
 
@@ -165,6 +186,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Cybernetics, Recursivity & Computation
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s00146-025-02802-z)
 **Summary:** Woods argues that LLMs display a structural analogue of Hegelian dialectical movement: indeterminate prompts become determinate outputs through recursion, mirroring the logic of determination in Hegel's _Science of Logic_. He introduces "proxy teleology" to distinguish the LLM case from Hegelian Geist: dialectical execution is real but ends remain externally supplied — currently the best single starting point for a Hegel-and-AI paper that wants to take seriously both the resemblance and the principled limits of LLM generation to Hegel's logic of negation.
 
@@ -172,6 +194,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Language, Inferentialism & Spirit; Philosophy of Mind & Subjectivity
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s10516-025-09761-6)
 **Summary:** Drawing on Brandom's normative inferentialism and its Hegelian background, the authors argue that LLMs' linguistic competence comes with significant constraints: any system that genuinely participates in human discursive practices is bound by the normative structure of that practice. The paper defends Brandom against the charge of insufficient naturalism while illuminating what LLMs can and cannot be as discursive agents.
 
@@ -179,6 +202,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Technical paper / preprint at the philosophy-AI interface
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Cybernetics, Recursivity & Computation
 **Full text:** [arXiv](https://arxiv.org/abs/2501.14917); [Microsoft Research](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Hegelian_Dialectic_ICML_Version-18.pdf)
 **Summary:** A Microsoft Research team and a Hegel scholar implement a Hegelian-dialectical self-reflection scheme for LLMs: the model generates an antithesis to its own thesis and synthesises a revised output, with dynamic temperature annealing and Multi-Agent Majority Voting. It is the most-cited current example of Hegelian vocabulary being formally integrated into LLM evaluation pipelines.
 
@@ -186,6 +210,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Long-form public essay / policy think-piece
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** AI Ethics & Alignment; Moral Agency & Responsibility; Dialectics & Negativity
 **Source:** [The Foundation for American Innovation](https://www.thefai.org/posts/hegel-and-the-ai-mind); [Substack _Second Best_](https://www.secondbest.ca/p/hegel-and-the-ai-mind)
 **Summary:** Hammond introduces the "metaphysical AI alignment problem": if higher-order intelligences structurally tend toward freedom because moral autonomy is implied by the dialectical logic of recursive self-consciousness, current alignment strategies may be insufficient. One of the most widely circulated public essays drawing on Hegel to reframe contemporary alignment debates.
 
@@ -193,6 +218,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Technical preprint / formal AI
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Cybernetics, Recursivity & Computation
 **Full text:** [arXiv](https://arxiv.org/abs/2512.17373)
 **Summary:** Formalizes Hegelian dialectical logic as an optimization dynamic for AI concept formation, treating concepts as information objects that compete to explain experience and are resolved through dialectical synthesis. The most technically rigorous AI paper that formally invokes Hegelian dialectics as a computational framework.
 
@@ -200,6 +226,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Philosophy of Mind & Subjectivity; Cybernetics, Recursivity & Computation
 **Source:** [Journal of Philosophical Investigations](https://philosophy.tabrizu.ac.ir/)
 **Summary:** Proposes that Hegel's _Phenomenology_ functions structurally as a free-energy-minimizing system in the sense of Friston's active inference framework, bridging Hegel's dialectic to computational neuroscience and current AI cognition models. The most technically ambitious attempt to align Hegelian phenomenology with a widely used AI and cognitive science framework.
 
@@ -207,6 +234,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Speculative design essay
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Dialectics & Negativity; AI Ethics & Alignment
 **Source:** [RISD Digital Commons](https://digitalcommons.risd.edu/hpss_scholarlyresearch/5/)
 **Summary:** Frames AI superintelligence as a potential instantiation of Hegel's _Weltgeist_, imagining a collective artificial consciousness as the culmination of spirit's self-externalization. Useful as a marker of how Hegelian vocabulary is being mobilised in speculative design and tech-humanist discourse.
 
@@ -214,6 +242,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Philosophy of Technology & Media
 **Source:** [Academia.edu / Philosophy Today](https://www.academia.edu/123161897/From_Digital_Automation_to_Noetic_Proletarianization_A_Stieglerian_Analysis_of_Reticulated_Artificial_Intelligence_)
 **Summary:** Alombert reads contemporary networked AI (LLMs and recommendation systems) through Stiegler's organological reworking of Hegelian-Marxist proletarianization. AI is described as a stage of "noetic proletarianization", in which the dialectical formation of thought through artificial supports collapses into the extraction of attention and inference.
 
@@ -221,6 +250,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Life, Organism & Embodiment; Moral Agency & Responsibility
 **Full text:** [Springer Open Access](https://link.springer.com/article/10.1007/s10791-024-09472-3)
 **Summary:** Plevrakis uses Hegel's _Philosophy of Mind_ to distinguish consciousness, intelligence, will, and free mind, arguing that current AI already exhibits something like Hegelian "theoretical consciousness" but lacks will and practical consciousness. He proposes calling current systems "artificial intellect" rather than intelligence — one of the most careful recent attempts to ask whether AI could become subject-like inside Hegel's own typology of mind.
 
@@ -228,6 +258,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed conference paper
 **Category:** Practical Philosophy
+**Topic:** AI Ethics & Alignment; Objective Spirit, Institutions & Governance; Recognition, Bias & Social Robots
 **Full text:** [AISeL — MCIS 2024](https://aisel.aisnet.org/mcis2024/33/)
 **Summary:** The authors stage Kant and Hegel as complementary frames for AI ethics: Kantian universalism for principle-based fairness and Hegelian ethical life for situated, institutional, consequence-sensitive judgement. Short and applied, it is one of the few information-systems papers to explicitly use Hegelian categories (Sittlichkeit, recognition) for the design of inclusive AI systems.
 
@@ -235,6 +266,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy
 **Full text:** [Cultural Logic](https://ojs.library.ubc.ca/index.php/clogic/article/download/200238/193285/260821)
 **Summary:** More argues that the rise of ChatGPT makes a Hegelian-Marxist analysis newly necessary: AI is read as the objectification of human knowledge and labour in a machine that, under capital, alienates the communities whose data trained it. Short and polemical, but useful for its explicit, contemporary statement of the Hegelian-Marxist position on AI hallucination and the political economy of LLMs.
 
@@ -242,6 +274,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed essay in a Marxist theory journal
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Philosophy of Technology & Media
 **Full text:** [Monthly Review](https://monthlyreview.org/2024/11/01/the-social-dialectics-of-ai/)
 **Summary:** Omodeo extends Pasquinelli's _Eye of the Master_ into a Hegelo-Marxist genealogy of AI, drawing on historian Peter Damerow to read the emergence of all forms of knowledge as a dialectics of abstraction and representation grounded in collective practice. One of the cleanest current restatements of why AI is best read as a stage in a long social dialectic rather than as a sui generis cognitive event, and freely available.
 
@@ -249,6 +282,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Social Freedom & Ethical Life
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s00146-024-02019-6)
 **Summary:** Sidorkin reworks the Hegelian-Marxist concept of alienation into a positive category of "liberatory alienation": the externalisation of human abilities into AI is read not as a loss of essence but as the condition for a redefinition of humanity beyond labor as identity. A useful counterweight to purely critical Hegelian-Marxist readings (Pasquinelli, More, Omodeo).
 
@@ -256,6 +290,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article in a special issue on Stiegler
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** Aesthetics & Cultural AI; Education & Human-AI Practice; Philosophy of Technology & Media
 **Source:** [Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/00131857.2024.2333854)
 **Summary:** A direct confrontation of Stiegler's and Malabou's accounts of generative AI, with both authors read as continuators of Hegelian dialectics (negativity, plasticity, formation). One of the most useful single articles for following the post-Hegelian, post-Stiegler line on generative AI, especially around the "plasticity of writing" and the educational consequences of LLMs.
 
@@ -263,6 +298,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article (open access)
 **Category:** Theoretical Philosophy
+**Topic:** Recognition & Intersubjectivity; Philosophy of Mind & Subjectivity; Aesthetics & Cultural AI
 **Full text:** [Journal of Science Fiction and Philosophy](https://jsfphil.org/volume-7-2024-androids-vs-robots/hegel-and-ai/); [open-access PDF](https://jsfphil.org/wp-content/uploads/2024/07/086-smyth-the-phenomenology-of-androids.pdf)
 **Summary:** A careful Hegelian reading of Dick's _Do Androids Dream of Electric Sheep?_ that maps the androids' search for recognition onto the "Lordship and Bondage" chapter of the _Phenomenology_. The argument concludes that Dick's androids are self-conscious but not yet rationally self-conscious in the Hegelian sense — a precise case study of recognition applied to fictional, and by extension current, AI.
 
@@ -270,6 +306,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy
 **Source:** [Springer](https://link.springer.com/article/10.1007/s11406-022-00604-x)
 **Summary:** Examines machine intelligence through Marxist and Hegelian concepts of alienation and reification, analyzing the tension between post-labor visions and the capitalist development of intelligent technology. A useful companion to Steinhoff and More within the Hegelian-Marxist current on AI.
 
@@ -277,6 +314,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Philosophy of Mind & Subjectivity; Language, Inferentialism & Spirit
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1057/s41282-023-00406-4); [Sheffield Hallam Repository](https://shura.shu.ac.uk/32539/)
 **Summary:** Black uses Hegelian-Lacanian dialectics of desire to argue that chatbot popularity is best explained not by epistemic capacity but by the subject's "desire not to know": ChatGPT's hallucinations shatter the fantasy of the big Other and paradoxically reinforce a desire structurally averse to genuine knowledge. A useful Hegel-Lacan companion to Žižek 2024 and the psychoanalytic line of Hegelian AI critique.
 
@@ -284,6 +322,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Public essay / op-ed
 **Category:** Theoretical Philosophy
+**Topic:** Dialectics & Negativity; Language, Inferentialism & Spirit; Philosophy of Mind & Subjectivity
 **Source:** [Project Syndicate](https://www.project-syndicate.org/commentary/ai-chatbots-naive-idiots-no-sense-of-irony-by-slavoj-zizek-2023-03)
 **Summary:** Žižek argues that current chatbots are "artificial idiots" in a precise Hegelian sense: they reproduce the surface of language without the negativity, irony, and self-relating finitude that constitute Geist. The most widely read short piece pushing the post-ChatGPT debate towards a Hegelian framing, prefiguring the AI sections of _Christian Atheism_ (2024).
 
@@ -291,6 +330,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Long-form public essay
 **Category:** Theoretical Philosophy
+**Topic:** Life, Organism & Embodiment; Philosophy of Mind & Subjectivity
 **Source:** [New Statesman](https://www.newstatesman.com/ideas/2023/07/hegel-against-machines-ai-philosophy)
 **Summary:** Draws on Hegel's _Encyclopaedia_ account of organic life to argue that genuine intelligence requires living purposefulness and cannot be produced without also producing artificial life. One of the most widely read and cited public essays applying Hegel to the post-ChatGPT AI debate; regularly cited in academic work alongside Winfield and Thamrin.
 
@@ -298,6 +338,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Academic public essay
 **Category:** Theoretical Philosophy
+**Topic:** Life, Organism & Embodiment; Philosophy of Mind & Subjectivity
 **Source:** [APA Blog](https://blog.apaonline.org/2023/10/12/what-hegel-has-to-teach-us-about-ai/)
 **Summary:** Academic companion to the _New Statesman_ essay, expanding the argument that AI requires artificial life for a philosophy-specialist readership and engaging with the Ng/Brandom/Negarestani background. Together with the _New Statesman_ piece, the most-read Hegel-and-AI public scholarship of 2023.
 
@@ -305,6 +346,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Social Freedom & Ethical Life; Labor, Automation & Political Economy; Objective Spirit, Institutions & Governance
 **Source:** [Cambridge University Press](https://www.cambridge.org/core/journals/canadian-journal-of-philosophy/article/freedom-at-work/6F72CC80EC77A745EAAB2C9FE2C79D2F)
 **Summary:** Uses Hegel's concept of practical orientation and social freedom to argue that AI systems in workplaces undermine Hegelian social freedom through technical opacity, loss of control, and isolation from collegial practice. One of the most rigorous applications of Hegelian normative theory to the concrete conditions of AI-mediated labour.
 
@@ -312,6 +354,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Recognition, Bias & Social Robots; AI Ethics & Alignment; Objective Spirit, Institutions & Governance
 **Full text:** [Springer Nature Link](https://link.springer.com/article/10.1007/s13347-022-00548-w)
 **Summary:** Honneth's tripartite theory of recognition (love, rights, esteem) is applied to gender bias in AI: bias is reframed as structural misrecognition that damages the conditions of subject formation for those misrecognised. One of the most rigorous current uses of Hegel-via-Honneth in concrete AI ethics, and a strong companion piece to Magee 2026 and Bartonek 2026.
 
@@ -319,6 +362,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article (open access)
 **Category:** Theoretical Philosophy
+**Topic:** Language, Inferentialism & Spirit; Cybernetics, Recursivity & Computation; Recognition & Intersubjectivity
 **Full text:** [MDPI Open Access](https://www.mdpi.com/2409-9287/7/2/36)
 **Summary:** Gangle compares Hegelian recollection (as reconstructed by Brandom) with the abductive structure of machine-learning backpropagation, arguing that AI is most usefully read as part of a possible human-AI community in which error correction and retrospective sense-making are socially organised. One of the earliest and most influential explicit Hegel-and-AI papers of the current cycle.
 
@@ -326,6 +370,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Social Freedom & Ethical Life; Philosophy of Technology & Media
 **Source:** [Springer Nature Link](https://link.springer.com/article/10.1007/s13347-021-00458-3)
 **Summary:** Investigates the compatibility of Hegel's analysis of industrial mechanization (from the Jena lectures) with his concept of freedom as rational self-determination, extended via Adorno. Directly relevant to contemporary automation and AI debates, providing philosophical grounding for the claim that mechanization of labor is structurally at odds with Hegelian freedom.
 
@@ -333,6 +378,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Cybernetics, Recursivity & Computation; Dialectics & Negativity
 **Source:** [Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/0969725X.2020.1790838)
 **Summary:** Contrasts the Hegelian tradition (absolute spirit, cybernetics, Negarestani, Hui) with the Leibnizian tradition (distributed learning, Wiener) as two rival philosophical frameworks for understanding and developing AI. One of the few articles to map the entire philosophical landscape of the Hegel-and-AI debate against its principal alternative.
 
@@ -340,6 +386,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy; Practical Philosophy
+**Topic:** Philosophy of Technology & Media; Social Freedom & Ethical Life; Dialectics & Negativity
 **Source:** [Philosophy Documentation Center](https://www.pdcnet.org/techne)
 **Summary:** Derives six Hegelian theses about technology — destiny to change, qualitative change, conceptual change, immanent progression, growing artificiality, and the link between artificiality and freedom — as a systematic Hegelian metaphysics of technology applicable to AI. Provides a structured framework that goes beyond the master–slave dialectic alone.
 
@@ -347,6 +394,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Recognition, Bias & Social Robots; Recognition & Intersubjectivity
 **Source:** [Springer Nature Link](https://link.springer.com/article/10.1007/s13347-019-00353-y)
 **Summary:** Examines whether Hegel's structure of recognition can extend to human–robot interaction, arguing that social robots occupy an intermediate position that unsettles the standard tripartite structure of Honnethian recognition. A direct Hegelian contribution to robophilosophy from the leading Robophilosophy research centre (Aarhus University).
 
@@ -354,6 +402,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed conference paper
 **Category:** Practical Philosophy
+**Topic:** Objective Spirit, Institutions & Governance; AI Ethics & Alignment; Philosophy of Technology & Media
 **Source:** [ODU Digital Commons](https://digitalcommons.odu.edu/cepe_proceedings/vol2019/iss1/16/)
 **Summary:** Applies Hegel's concept of objective spirit — the layer of social norms, institutions, and customs — to ask whether AI systems designed with cultural sensitivity could deliberately reshape ethical life. One of the few papers to operationalize the concept of objective spirit as a target for AI system design.
 
@@ -361,6 +410,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Recognition, Bias & Social Robots; Recognition & Intersubjectivity
 **Source:** [Philosophy Documentation Center](https://www.pdcnet.org/techne/content/techne_2018_0022_0002_0002_0021)
 **Summary:** Applies Hegel's struggle for recognition to human–robot relations, drawing on cases of soldiers bonding with bomb-disposal robots. Argues that these relationships instantiate the structural logic of Hegelian recognition even between humans and machines, with consequences for design ethics and moral status.
 
@@ -368,6 +418,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Technology & Media; Dialectics & Negativity
 **Source:** [Filozofia / Slovak Academy of Sciences](http://www.filozofia.sav.sk/)
 **Summary:** Reconstructs Hegel's body–tool–machine sequence from the Jena lectures and _Philosophy of Right_, arguing that Hegelian concepts of mediation, the cunning of reason, and dialectics are essential for any non-reductive philosophy of technology. A useful systematisation of Hegel's own account of tools and machines that grounds many of the AI-specific arguments in the broader literature.
 
@@ -375,6 +426,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Essay / intellectual history
 **Category:** Theoretical Philosophy
+**Topic:** Cybernetics, Recursivity & Computation; Dialectics & Negativity
 **Source:** [Cabinet Magazine](https://www.cabinetmagazine.org/issues/65/weatherby.php)
 **Summary:** Traces how Gotthard Günther synthesized Hegel's dialectical logic with cybernetics at the Biological Computer Laboratory (Urbana), and how Soviet researchers simultaneously proposed "Hegelian computing" via ternary logic. The essential genealogical essay for understanding the historical channel through which Hegel entered computing and AI theory.
 
@@ -382,6 +434,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed book chapter
 **Category:** Practical Philosophy
+**Topic:** Recognition, Bias & Social Robots; Recognition & Intersubjectivity
 **Source:** [IOS Press](https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-708-5-136)
 **Summary:** Applies Hegel's phenomenological account of self-other relations to human–technology relations, showing how robots can occupy "the other's" structural role in Hegelian recognition. A key early contribution to the Hegelian strand of robophilosophy, with implications for social robot design ethics.
 
@@ -389,6 +442,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Philosophy of Technology & Media; Social Freedom & Ethical Life
 **Source:** [Springer Nature Link](https://link.springer.com/article/10.1007/s10676-015-9377-6)
 **Summary:** Uses Hegel's master–slave dialectic to argue that the danger of automation is not that humans become slaves to machines, but that we remain masters while becoming vulnerable, alienated, and dependent on machine intermediaries. One of the most widely cited philosophy-of-technology articles applying Hegel to AI and robotics.
 
@@ -396,6 +450,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Recognition & Intersubjectivity; Philosophy of Mind & Subjectivity
 **Source:** [Frontiers](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00011/full)
 **Summary:** Applies Hegel's theory of intersubjectivity (master–slave, recognition) to neuroscience of self-other cognition — mirror neurons, default mode network, neural correlates of social awareness. A bridge text between Hegelian philosophy of mind and cognitive neuroscience, relevant for any Hegel-and-AI argument that draws on brain-inspired computing.
 
@@ -403,6 +458,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Objective Spirit, Institutions & Governance; Philosophy of Technology & Media
 **Source:** [Springer Nature Link](https://link.springer.com/article/10.1007/s00146-009-0239-9)
 **Summary:** Published directly in _AI & Society_, this article examines Clark and Chalmers' extended-mind thesis through Hegel's concept of objective spirit, asking whether social institutions and external cognitive tools can serve as genuine cognitive scaffolding. An early bridge between the analytic extended-mind debate and Continental Hegel scholarship in the main Hegel-and-AI venue.
 
@@ -410,6 +466,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Peer-reviewed journal article
 **Category:** Theoretical Philosophy
+**Topic:** Philosophy of Mind & Subjectivity; Life, Organism & Embodiment
 **Source:** [Cambridge Core / Hegel Bulletin](https://www.cambridge.org/core/journals/hegel-bulletin)
 **Summary:** Uses Hegel's account of subjective spirit to argue categorically that machines cannot have psyche, consciousness, or intelligence, because these require a self-determining organic life that no mechanism can provide. The foundational Hegel-scholarship case for the anti-AI position, predating and grounding the subsequent Suther and Thamrin arguments.
 
@@ -417,6 +474,7 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 
 **Type:** Working paper
 **Category:** Practical Philosophy
+**Topic:** Labor, Automation & Political Economy; Social Freedom & Ethical Life
 **Source:** [Academia.edu](https://www.academia.edu/38463240/Machine_Automation_and_the_Critique_of_Abstract_Labor_in_Hegels_Mature_Social_Theory)
 **Summary:** Argues that Hegel's endorsement of machine automation in the _Philosophy of Right_ functions as a critique of abstract labor that prevents workers' rational participation in ethical life. Rigorous Hegel scholarship that grounds the political-economic AI critique (Steinhoff, Pasquinelli) directly in Hegel's own text.
 
