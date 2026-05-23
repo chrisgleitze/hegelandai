@@ -54,7 +54,7 @@ export function LiteratureStats({ data }: { data: LiteratureData }) {
   return (
     <ul
       role="list"
-      className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3"
+      className="mt-12 grid grid-cols-1 gap-6 sm:mt-14 sm:grid-cols-3"
       aria-label="Literature statistics"
     >
       {stats.map((stat) => (
