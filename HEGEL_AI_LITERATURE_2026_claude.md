@@ -90,10 +90,10 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Source:** [SAGE Journals (DOI 10.1177/01914537261416867)](https://journals.sagepub.com/doi/10.1177/01914537261416867)
 **Summary:** Bartonek proposes a Hegelian alternative to the Turing test and to performance-based benchmarks of machine intelligence. The "Hegel Test" is built from three structures of the _Phenomenology of Spirit_: the social dialectic of recognition, the labor-mediated relation to nature, and sublation (_Aufhebung_). The article argues that current tests set criteria too low and lack systematic philosophical grounding, and that strong AI should instead be judged against a recognisably human "highpoint" of self-negating, socially mediated, historically meaningful intelligence. Currently the most explicit peer-reviewed attempt to set genuinely Hegelian criteria for what would count as superintelligence.
 
-### 14. Magee, Liam (2026): "Geist in the Machine. Simulating Recognition and Inner Dialogue in AI-Mediated Teaching and Research". arXiv preprint 2603.10450.
+### 14. Magee, Liam (2026): "Geist in the Machine. Simulating Recognition and Inner Dialogue in AI-Mediated Teaching and Research". arXiv.
 
 **Type:** Technical-philosophical preprint, with empirical evaluation
-**Full text:** [arXiv:2603.10450](https://arxiv.org/abs/2603.10450)
+**Full text:** [arXiv](https://arxiv.org/abs/2603.10450)
 **Summary:** Magee builds an experimental AI tutoring system explicitly grounded in Hegelian recognition and Freudian ego/superego structure. Two interventions are tested: "recognition-enhanced" prompts in which the tutor is instructed to treat the learner as an autonomous subject, and a multi-agent architecture with an internal critic. A factorial evaluation across three current generation models (DeepSeek V3.2, Haiku 4.5, Gemini Flash 3.0) reports large, model-independent effect sizes (d=1.34–1.92) traced to a calibration mechanism that raises the floor of tutor performance. Unusual and important because it operationalises recognition as a measurable variable inside contemporary LLM systems rather than only as a philosophical analogy.
 
 ### 15. Thamrin, Umar (2026; online 2025): "The Untransformed Self. Why AI Fails the Hegelian Test for Moral Consciousness", in: _AI and Ethics_.
@@ -126,10 +126,10 @@ _Sorting: newest first within each section. Format per entry: bibliographic refe
 **Full text:** [Springer Nature Link (DOI 10.1007/s10516-025-09761-6)](https://link.springer.com/article/10.1007/s10516-025-09761-6)
 **Summary:** Drawing on Brandom's normative inferentialism (and so on a Hegelian theory of recognition and mutual rational obligation), the authors argue that the linguistic competence of LLMs comes with significant constraints on their artificial agency: any system that genuinely participates in human discursive practices is bound by the normative structure of that practice. The paper defends Brandom against the charge of insufficient naturalism while showing how his Hegelian background illuminates what LLMs can and cannot be as discursive agents.
 
-### 20. Abdali, Sara / Goksen, Can / Solodko, Michael / Amizadeh, Saeed / Maybee, Julie E. / Koishida, Kazuhito (2025): "Self-Reflecting Large Language Models. A Hegelian Dialectical Approach". arXiv preprint 2501.14917 (also ICML 2025 workshop version, Microsoft Research).
+### 20. Abdali, Sara / Goksen, Can / Solodko, Michael / Amizadeh, Saeed / Maybee, Julie E. / Koishida, Kazuhito (2025): "Self-Reflecting Large Language Models. A Hegelian Dialectical Approach". arXiv (also ICML 2025 workshop version, Microsoft Research).
 
 **Type:** Technical paper / preprint at the philosophy-AI interface
-**Full text:** [arXiv:2501.14917](https://arxiv.org/abs/2501.14917); [Microsoft Research ICML version](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Hegelian_Dialectic_ICML_Version-18.pdf)
+**Full text:** [arXiv](https://arxiv.org/abs/2501.14917); [Microsoft Research ICML version](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Hegelian_Dialectic_ICML_Version-18.pdf)
 **Summary:** A team of Microsoft Research engineers and a Hegel scholar (Julie E. Maybee) implement a Hegelian-dialectical self-reflection scheme for LLMs: the model generates an antithesis to its own thesis and synthesises a revised output, with dynamic temperature annealing and Multi-Agent Majority Voting. The paper is not Hegel scholarship in the strict sense, but it is the most-cited current example of Hegelian vocabulary being formally integrated into LLM evaluation pipelines, and the presence of a Hegel scholar on the byline is itself a useful data point.
 
 ### 21. Hammond, Samuel (2025): "Hegel and the AI Mind", in: _The Foundation for American Innovation_ / Substack _Second Best_.

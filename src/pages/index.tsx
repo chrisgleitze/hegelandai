@@ -22,11 +22,11 @@ function Hero() {
         <Image
           src="/images/hegel-profile.jpg"
           alt="Porträt von Georg Wilhelm Friedrich Hegel"
-          width={128}
-          height={128}
+          width={192}
+          height={192}
           priority
           unoptimized
-          className="h-20 w-20 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-white/10 transition duration-200 ease-out hover:-translate-y-px hover:ring-teal-400/30 sm:h-28 sm:w-28"
+          className="h-32 w-32 shrink-0 rounded-full object-cover shadow-lg shadow-zinc-800/10 ring-1 ring-white/10 transition duration-200 ease-out hover:-translate-y-px hover:ring-teal-400/30 sm:h-48 sm:w-48"
         />
       </div>
     </Container>
