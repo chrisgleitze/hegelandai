@@ -417,24 +417,6 @@ export function LiteratureOverview({
           </h2>
         </div>
 
-        <div className="mt-6 flex justify-center text-sm text-zinc-400">
-          <ul className="flex flex-wrap justify-center gap-3">
-            {filteredSections.map((section) => (
-              <li key={section.id}>
-                <a
-                  href={`#${section.id}`}
-                  className="inline-flex items-center gap-2 rounded-full border border-zinc-700/40 bg-zinc-800/60 px-3 py-1.5 text-zinc-300 transition hover:border-teal-400/40 hover:text-teal-300"
-                >
-                  <span className="font-semibold text-zinc-100">
-                    Section {section.eyebrow}:
-                  </span>
-                  <span>{section.title.replace(/\s*\(.+\)$/, "")}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-
         <LiteratureStats data={data} />
 
         <LiteratureCategoryFilter
