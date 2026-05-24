@@ -42,8 +42,9 @@ export function Header() {
                   unoptimized
                   className="object-cover"
                   style={{
-                    objectPosition: `70% ${47 - portraitProgress * 3}%`,
+                    objectPosition: `50% ${47 - portraitProgress * 3}%`,
                     transform: `scale(${1.7 + portraitProgress * 0.2})`,
+                    transformOrigin: '30% 50%',
                   }}
                 />
               </span>

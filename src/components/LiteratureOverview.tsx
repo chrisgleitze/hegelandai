@@ -3,7 +3,6 @@ import clsx from "clsx";
 
 import { Card } from "@/components/Card";
 import { Container } from "@/components/Container";
-import { LiteratureStats } from "@/components/LiteratureStats";
 import {
   LITERATURE_CATEGORIES,
   LITERATURE_TOPICS,
@@ -210,6 +209,74 @@ function LiteratureSectionView({ section }: { section: LiteratureSection }) {
         ))}
       </div>
     </section>
+  );
+}
+
+function LiteratureMetricCard({
+  value,
+  label,
+  href,
+  className,
+}: {
+  value: string;
+  label: string;
+  href?: string;
+  className?: string;
+}) {
+  const content = (
+    <>
+      <span className="block text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+        {value}
+      </span>
+      <span className="mt-2 block text-sm font-semibold text-teal-600 dark:text-teal-400">
+        {label}
+      </span>
+    </>
+  );
+
+  const classes = clsx(
+    "flex min-w-28 flex-col items-center justify-center overflow-hidden rounded-2xl border border-zinc-100 bg-white/80 px-5 py-4 text-center shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition duration-200 ease-out dark:border-zinc-700/40 dark:bg-zinc-900/40 dark:ring-white/10 sm:min-w-32",
+    href && "hover:-translate-y-px hover:shadow-none dark:hover:shadow-none",
+    className
+  );
+
+  if (!href) {
+    return <div className={classes}>{content}</div>;
+  }
+
+  return (
+    <a href={href} className={classes}>
+      {content}
+    </a>
+  );
+}
+
+function LiteratureJumpLinks({ data }: { data: LiteratureData }) {
+  const booksCount =
+    data.sections.find((section) => section.id === "books")?.entries.length ??
+    0;
+  const articleCount =
+    data.sections.find((section) => section.id === "articles")?.entries
+      .length ?? 0;
+
+  return (
+    <div className="mt-8 sm:mt-9">
+      <p className="text-center text-sm font-semibold uppercase tracking-[0.38em] text-zinc-500">
+        Jump to
+      </p>
+      <div className="mt-4 flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-12">
+        <LiteratureMetricCard
+          value={String(booksCount)}
+          label="Books"
+          href="#books"
+        />
+        <LiteratureMetricCard
+          value={String(articleCount)}
+          label="Articles"
+          href="#articles"
+        />
+      </div>
+    </div>
   );
 }
 
@@ -420,7 +487,12 @@ export function LiteratureOverview({
           </h2>
         </div>
 
-        <LiteratureStats data={data} show={["Entries"]} className="mt-10 sm:mt-14" />
+        <div className="mt-16 flex justify-center sm:mt-[4.25rem]">
+          <LiteratureMetricCard
+            value={String(data.totalEntries)}
+            label="Entries"
+          />
+        </div>
 
         <LiteratureCategoryFilter
           activeCategory={activeCategory}
@@ -431,12 +503,7 @@ export function LiteratureOverview({
           onTopicChange={setActiveTopic}
         />
 
-        <div className="mt-6 flex flex-col items-center gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 dark:text-zinc-400">
-            Jump to
-          </p>
-          <LiteratureStats data={data} show={["Books", "Articles"]} />
-        </div>
+        <LiteratureJumpLinks data={data} />
 
         <div className="mt-12 space-y-16 sm:mt-16 sm:space-y-20">
           {filteredSections.map((section) => (
