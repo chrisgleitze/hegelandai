@@ -54,3 +54,4 @@ App runs at http://localhost:3002.
 - Tailwind utility classes only — no custom CSS files beyond `src/styles/tailwind.css`.
 - Components live in `src/components/`, pages in `src/pages/`.
 - The literature data model is defined in `src/lib/literature.ts` (`LiteratureEntry`, `LiteratureSection`, `LiteratureData`); keep it the single source of truth.
+- New Markdown info/research files created by Claude are named with the suffix `_claude.md` (e.g. `WEBSITE_IDEAS_claude.md`, `HEGEL_AI_LITERATURE_2026_claude.md`).
