@@ -241,10 +241,13 @@ function LiteratureCategoryFilter({
   const hasTopics = currentTopics.length > 0;
 
   return (
-    <div className="mt-10 flex justify-center">
-      <div className="rounded-3xl border border-teal-400/20 bg-zinc-900/70 px-5 py-5 shadow-sm shadow-zinc-950/20 ring-1 ring-white/10">
+    <div className="mt-10 flex flex-col items-center gap-3">
+      <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 dark:text-zinc-400">
+        Filter by
+      </p>
+      <div className="rounded-3xl border border-teal-400/20 bg-zinc-900/70 px-7 py-6 shadow-sm shadow-zinc-950/20 ring-1 ring-white/10 sm:px-8">
         <p className="text-center text-xs font-semibold uppercase tracking-[0.22em] text-teal-300">
-          Filter by philosophical field
+          Philosophical field
         </p>
         <div className="mt-4 flex flex-wrap justify-center gap-3">
           {categories.map((category) => {
@@ -289,7 +292,7 @@ function LiteratureCategoryFilter({
           <div className="overflow-hidden">
             <div className="mt-5 border-t border-teal-400/10 pt-4">
               <p className="text-center text-xs font-semibold uppercase tracking-[0.22em] text-teal-300/60">
-                Filter by philosophical topic
+                Philosophical topic
               </p>
               <div className="mt-3 flex flex-wrap justify-center gap-2.5">
                 {([
@@ -417,7 +420,7 @@ export function LiteratureOverview({
           </h2>
         </div>
 
-        <LiteratureStats data={data} />
+        <LiteratureStats data={data} show={["Entries"]} className="mt-10 sm:mt-14" />
 
         <LiteratureCategoryFilter
           activeCategory={activeCategory}
@@ -427,6 +430,13 @@ export function LiteratureOverview({
           onCategoryChange={handleCategoryChange}
           onTopicChange={setActiveTopic}
         />
+
+        <div className="mt-6 flex flex-col items-center gap-3">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500 dark:text-zinc-400">
+            Jump to
+          </p>
+          <LiteratureStats data={data} show={["Books", "Articles"]} />
+        </div>
 
         <div className="mt-12 space-y-16 sm:mt-16 sm:space-y-20">
           {filteredSections.map((section) => (
