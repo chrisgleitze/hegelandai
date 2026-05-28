@@ -1,6 +1,6 @@
 import nextMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
-import rehypePrism from '@mapbox/rehype-prism'
+import rehypePrism from 'rehype-prism-plus'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
