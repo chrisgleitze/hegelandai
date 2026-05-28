@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react'
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
 
@@ -8,19 +7,7 @@ import { Header } from '@/components/Header'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
-function usePrevious<T>(value: T): T | undefined {
-  const ref = useRef<T>()
-
-  useEffect(() => {
-    ref.current = value
-  }, [value])
-
-  return ref.current
-}
-
-export default function App({ Component, pageProps, router }: AppProps) {
-  const previousPathname = usePrevious(router.pathname)
-
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
@@ -42,7 +29,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       <div className="relative">
         <Header />
         <main id="page-top" className="scroll-mt-20">
-          <Component previousPathname={previousPathname} {...pageProps} />
+          <Component {...pageProps} />
         </main>
         <Footer />
       </div>
