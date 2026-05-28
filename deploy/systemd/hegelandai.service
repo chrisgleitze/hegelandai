@@ -11,7 +11,7 @@ WorkingDirectory=/srv/www/hegelandai
 Environment=NODE_ENV=production
 Environment=NEXT_TELEMETRY_DISABLED=1
 EnvironmentFile=-/etc/hegelandai.env
-ExecStart=/bin/bash -lc 'source /home/deploy/.nvm/nvm.sh && exec nvm exec 22 npm run start:prod'
+ExecStart=/bin/bash -lc 'source /home/deploy/.nvm/nvm.sh && nvm exec 22 npm run start:prod'
 Restart=always
 RestartSec=5
 KillSignal=SIGINT
