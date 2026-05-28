@@ -251,13 +251,17 @@ function LiteratureMetricCard({
   );
 }
 
-function LiteratureJumpLinks({ data }: { data: LiteratureData }) {
+function LiteratureJumpLinks({
+  sections,
+}: {
+  sections: LiteratureSection[];
+}) {
   const booksCount =
-    data.sections.find((section) => section.id === "books")?.entries.length ??
+    sections.find((section) => section.id === "books")?.entries.length ??
     0;
   const articleCount =
-    data.sections.find((section) => section.id === "articles")?.entries
-      .length ?? 0;
+    sections.find((section) => section.id === "articles")?.entries.length ??
+    0;
 
   return (
     <div className="mt-8 sm:mt-9">
@@ -503,7 +507,7 @@ export function LiteratureOverview({
           onTopicChange={setActiveTopic}
         />
 
-        <LiteratureJumpLinks data={data} />
+        <LiteratureJumpLinks sections={filteredSections} />
 
         <div className="mt-12 space-y-16 sm:mt-16 sm:space-y-20">
           {filteredSections.map((section) => (
