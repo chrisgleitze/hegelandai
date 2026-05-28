@@ -28,7 +28,7 @@ export function Footer() {
     <footer id="page-bottom" className="mt-32 scroll-mt-28">
       <Container.Outer>
         <Container.Inner>
-          <div className="mb-8 flex justify-center">
+          <div className="mb-8 flex justify-center gap-3">
             <a
               href="#page-top"
               aria-label="Jump to top of page"
@@ -36,6 +36,16 @@ export function Footer() {
             >
               <span>Top of Page</span>
               <span aria-hidden="true">↑</span>
+            </a>
+            <a
+              href="https://www.kantandai.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Kant and AI"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-700/40 bg-zinc-800/60 px-4 py-2 text-sm font-semibold text-zinc-100 transition hover:border-teal-400/40 hover:text-teal-300"
+            >
+              <span>Kant and AI</span>
+              <span aria-hidden="true">↗</span>
             </a>
           </div>
         </Container.Inner>

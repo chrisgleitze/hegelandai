@@ -27,6 +27,15 @@ When coding in this repository, actively check whether relevant structural, UI, 
 - **UI components:** Headless UI, Heroicons
 - **Node:** managed via nvm (default: v22); use absolute binary paths when running npm from a non-interactive shell — the `npm`/`node` shell functions wrap `_load_nvm` and break in subshells
 
+## Dev Server
+
+| Project     | Port | Start command |
+| ----------- | ---- | ------------- |
+| kantandai   | 3001 | `PATH="/home/chris/.nvm/versions/node/v22.22.3/bin:$PATH" /home/chris/.nvm/versions/node/v22.22.3/bin/npm run dev -- -p 3001` |
+| hegelandai  | 3002 | `PATH="/home/chris/.nvm/versions/node/v22.22.3/bin:$PATH" /home/chris/.nvm/versions/node/v22.22.3/bin/npm run dev -- -p 3002` |
+
+Run from each project's root directory.
+
 ## Key Files
 
 | Path                                    | Role                                           |
