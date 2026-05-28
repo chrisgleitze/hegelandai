@@ -28,15 +28,6 @@ When coding in this repository, Codex must actively check whether relevant struc
 - **UI components:** Headless UI, Heroicons
 - **Node:** managed via nvm (default: v22); use absolute binary paths when running npm from a non-interactive shell — the `npm`/`node` shell functions wrap `_load_nvm` and break in subshells
 
-## Dev Server
-
-```bash
-/home/chris/.nvm/versions/node/v22.22.0/bin/node \
-  /home/chris/.nvm/versions/node/v22.22.0/bin/npm run dev -- -p 3002
-```
-
-App runs at http://localhost:3002.
-
 ## Key Files
 
 | Path                                    | Role                                           |

@@ -27,26 +27,17 @@ When coding in this repository, actively check whether relevant structural, UI, 
 - **UI components:** Headless UI, Heroicons
 - **Node:** managed via nvm (default: v22); use absolute binary paths when running npm from a non-interactive shell — the `npm`/`node` shell functions wrap `_load_nvm` and break in subshells
 
-## Dev Server
-
-```bash
-/home/chris/.nvm/versions/node/v22.22.0/bin/node \
-  /home/chris/.nvm/versions/node/v22.22.0/bin/npm run dev -- -p 3002
-```
-
-App runs at http://localhost:3002.
-
 ## Key Files
 
-| Path | Role |
-|---|---|
-| `src/pages/index.tsx` | Home page — Hero + LiteratureOverview |
-| `src/components/LiteratureOverview.tsx` | Renders literature sections and entries |
-| `src/components/LiteratureStats.tsx` | Entry count display |
-| `src/lib/literature.ts` | Markdown parser; exports `getLiteratureData()` |
-| `src/pages/api/literature.ts` | API route for dev hot-reload |
-| `HEGEL_AI_LITERATURE_2026_claude.md` | Source data (Markdown) |
-| `public/images/hegel-profile.jpg` | Hegel portrait used in the Hero |
+| Path                                    | Role                                           |
+| --------------------------------------- | ---------------------------------------------- |
+| `src/pages/index.tsx`                   | Home page — Hero + LiteratureOverview          |
+| `src/components/LiteratureOverview.tsx` | Renders literature sections and entries        |
+| `src/components/LiteratureStats.tsx`    | Entry count display                            |
+| `src/lib/literature.ts`                 | Markdown parser; exports `getLiteratureData()` |
+| `src/pages/api/literature.ts`           | API route for dev hot-reload                   |
+| `HEGEL_AI_LITERATURE_2026_claude.md`    | Source data (Markdown)                         |
+| `public/images/hegel-profile.jpg`       | Hegel portrait used in the Hero                |
 
 ## Conventions
 
