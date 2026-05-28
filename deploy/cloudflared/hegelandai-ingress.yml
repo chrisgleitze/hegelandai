@@ -1,0 +1,6 @@
+# Add these entries to /etc/cloudflared/config.yml on the VPS.
+# They assume Nginx listens on 127.0.0.1:8080.
+- hostname: hegelandai.com
+  service: http://127.0.0.1:8080
+- hostname: www.hegelandai.com
+  service: http://127.0.0.1:8080

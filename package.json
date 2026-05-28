@@ -9,7 +9,10 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start:prod": "next start -p 3002 -H 127.0.0.1",
+    "deploy:production": "bash scripts/deploy-production.sh",
+    "smoke:production": "bash scripts/smoke-production.sh"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {

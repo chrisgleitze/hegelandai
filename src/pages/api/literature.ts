@@ -3,6 +3,11 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import { getLiteratureData } from '@/lib/literature'
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
+  if (process.env.NODE_ENV !== 'development') {
+    res.status(404).json({ error: 'Not found' })
+    return
+  }
+
   try {
     const data = getLiteratureData()
 
