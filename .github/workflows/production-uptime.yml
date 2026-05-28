@@ -1,0 +1,51 @@
+name: Production uptime
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-uptime
+  cancel-in-progress: true
+
+jobs:
+  uptime:
+    name: Check production endpoints
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check apex and www redirect
+        env:
+          APEX_URL: https://hegelandai.com/
+          WWW_URL: https://www.hegelandai.com/
+        run: |
+          set -euo pipefail
+
+          check_ok() {
+            local url="$1"
+            local http_status
+            http_status="$(curl -sS -o /dev/null -w '%{http_code}' --connect-timeout 10 --max-time 30 "$url")"
+            echo "$url -> $http_status"
+            test "$http_status" = "200"
+          }
+
+          check_redirect() {
+            local from="$1"
+            local to="$2"
+            local headers http_status location
+            headers="$(mktemp)"
+            http_status="$(curl -sS -o /dev/null -D "$headers" -w '%{http_code}' --connect-timeout 10 --max-time 30 "$from")"
+            location="$(awk 'tolower($1) == "location:" {print $2}' "$headers" | tr -d '\r' | tail -n 1)"
+            rm -f "$headers"
+            echo "$from -> $http_status $location"
+            test "$http_status" = "301"
+            test "$location" = "$to"
+          }
+
+          check_ok "$APEX_URL"
+          check_redirect "$WWW_URL" "$APEX_URL"
