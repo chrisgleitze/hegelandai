@@ -20,6 +20,10 @@ export default function Impressum() {
             <br />
             Christian Gleitze
             <br />
+            Ederstraße 14
+            <br />
+            60486 Frankfurt am Main
+            <br />
             <a
               href="https://www.christiangleitze.com"
               className="text-teal-400 underline hover:no-underline"
@@ -28,10 +32,6 @@ export default function Impressum() {
             >
               www.christiangleitze.com
             </a>
-            <br />
-            Ederstraße 14
-            <br />
-            60486 Frankfurt am Main
             <br />
           </p>
           <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
