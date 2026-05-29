@@ -20,6 +20,15 @@ export default function Impressum() {
             <br />
             Christian Gleitze
             <br />
+            <a
+              href="https://www.christiangleitze.com"
+              className="text-teal-400 underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              www.christiangleitze.com
+            </a>
+            <br />
             Ederstraße 14
             <br />
             60486 Frankfurt am Main
