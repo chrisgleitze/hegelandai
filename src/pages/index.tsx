@@ -101,8 +101,8 @@ function Hero() {
         />
       </div>
       <p className="mt-16 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
-        Hegel and AI is a curated research guide to scholarship connecting
-        Hegelian philosophy with artificial intelligence. It maps both direct
+        Hegel and AI is a research guide to scholarship connecting Hegelian
+        philosophy with artificial intelligence. It maps both direct
         Hegel-and-AI publications and adjacent work in philosophy of technology,
         political economy, and digital subjectivity.
       </p>

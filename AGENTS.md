@@ -37,6 +37,31 @@ When coding in this repository, Codex must actively check whether relevant struc
 
 Run from each project's root directory.
 
+### Starting the live dev server
+
+For this repository (`hegelandai`), always start the live development server on
+**port 3002** from the repository root:
+
+```bash
+cd /home/chris/projects/hegelandai
+PATH="/home/chris/.nvm/versions/node/v22.22.3/bin:$PATH" \
+  /home/chris/.nvm/versions/node/v22.22.3/bin/npm run dev -- -p 3002
+```
+
+If the server should keep running in the background, use a dedicated tmux socket
+and session:
+
+```bash
+tmux -L hegelandai-dev new-session -d -s hegelandai-dev -c /home/chris/projects/hegelandai \
+  'PATH="/home/chris/.nvm/versions/node/v22.22.3/bin:$PATH" /home/chris/.nvm/versions/node/v22.22.3/bin/npm run dev -- -p 3002'
+```
+
+Attach to it with:
+
+```bash
+tmux -L hegelandai-dev attach -t hegelandai-dev
+```
+
 ## Key Files
 
 | Path                                    | Role                                           |
