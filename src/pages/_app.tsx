@@ -1,11 +1,14 @@
-import Head from 'next/head'
-import type { AppProps } from 'next/app'
+import Head from "next/head";
+import type { AppProps } from "next/app";
 
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 
-import '@/styles/tailwind.css'
-import 'focus-visible'
+import "@/styles/tailwind.css";
+import "focus-visible";
+
+const siteDescription =
+  "A platform for all things Hegel and AI - literature and more at the intersection of GWF Hegel's philosophy and Artificial Intelligence.";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,10 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Hegel and AI</title>
         <link rel="icon" type="image/jpeg" href="/images/hegel-profile.jpg" />
-        <meta property="og:title" content="Hegel and AI" />
+        <meta property="og:title" content="Hegel and AI" key="og:title" />
         <meta
           property="og:description"
-          content="A literature overview on Hegel, artificial intelligence, recognition, dialectic, and AI ethics."
+          content={siteDescription}
+          key="og:description"
         />
       </Head>
 
@@ -34,5 +38,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <Footer />
       </div>
     </>
-  )
+  );
 }

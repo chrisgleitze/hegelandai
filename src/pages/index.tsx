@@ -13,6 +13,67 @@ type HomeProps = {
   data: LiteratureData
 }
 
+const SITE = {
+  name: 'Hegel and AI',
+  url: 'https://hegelandai.com/',
+  description:
+    'A platform for all things Hegel and Artificial Intelligence (AI) - literature and more.',
+  image: 'https://hegelandai.com/images/hegel-profile.jpg',
+}
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://hegelandai.com/#website',
+      url: SITE.url,
+      name: SITE.name,
+      description: SITE.description,
+      inLanguage: 'en',
+      publisher: {
+        '@id': 'https://www.christiangleitze.com/#person',
+      },
+    },
+    {
+      '@type': 'CollectionPage',
+      '@id': 'https://hegelandai.com/#webpage',
+      url: SITE.url,
+      name: 'Hegel and AI Literature',
+      description: SITE.description,
+      inLanguage: 'en',
+      isPartOf: {
+        '@id': 'https://hegelandai.com/#website',
+      },
+      about: [
+        {
+          '@type': 'Thing',
+          name: 'Georg Wilhelm Friedrich Hegel',
+          sameAs: 'https://www.wikidata.org/wiki/Q9317',
+        },
+        {
+          '@type': 'Thing',
+          name: 'Artificial intelligence',
+          sameAs: 'https://www.wikidata.org/wiki/Q11660',
+        },
+        {
+          '@type': 'Thing',
+          name: 'Hegelian philosophy',
+        },
+      ],
+      author: {
+        '@id': 'https://www.christiangleitze.com/#person',
+      },
+    },
+    {
+      '@type': 'Person',
+      '@id': 'https://www.christiangleitze.com/#person',
+      name: 'Christian Gleitze',
+      url: 'https://www.christiangleitze.com',
+    },
+  ],
+}
+
 function Hero() {
   const portraitProgress = useScrollProgress()
 
@@ -78,11 +139,40 @@ export default function Home({
     <>
       <Head>
         <title>Hegel and AI</title>
-        <meta
-          name="description"
-          content="A literature overview on Hegel, artificial intelligence, recognition, dialectic, and AI ethics."
-        />
+        <meta name="description" content={SITE.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href={SITE.url} key="canonical" />
+        <meta property="og:url" content={SITE.url} key="og:url" />
+        <meta property="og:type" content="website" key="og:type" />
+        <meta property="og:title" content={SITE.name} key="og:title" />
+        <meta
+          property="og:description"
+          content={SITE.description}
+          key="og:description"
+        />
+        <meta property="og:image" content={SITE.image} key="og:image" />
+        <meta
+          property="og:site_name"
+          content={SITE.name}
+          key="og:site_name"
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+          key="twitter:card"
+        />
+        <meta name="twitter:title" content={SITE.name} key="twitter:title" />
+        <meta
+          name="twitter:description"
+          content={SITE.description}
+          key="twitter:description"
+        />
+        <meta name="twitter:image" content={SITE.image} key="twitter:image" />
+        <script
+          key="structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </Head>
       <Hero />
       <LiteratureOverview data={data} />
