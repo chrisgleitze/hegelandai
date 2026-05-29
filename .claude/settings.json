@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(/home/chris/.nvm/versions/node/v22.22.3/bin/npm run *)",
+      "Bash(/home/chris/.nvm/versions/node/v22.22.3/bin/npm install *)",
+      "Bash(/home/chris/.nvm/versions/node/v22.22.3/bin/node *)",
+      "Bash(PATH=\"/home/chris/.nvm/versions/node/v22.22.3/bin:$PATH\" /home/chris/.nvm/versions/node/v22.22.3/bin/npm run *)",
+      "Bash(PATH=\"/home/chris/.nvm/versions/node/v22.22.3/bin:$PATH\" /home/chris/.nvm/versions/node/v22.22.3/bin/npm install *)",
+      "Bash(curl -s http://localhost:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:*)",
+      "Bash(curl -sv http://localhost:*)",
+      "Bash(./node_modules/.bin/tsc --noEmit*)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(fuser -k *)",
+      "Read(/tmp/*)",
+      "WebSearch",
+      "WebFetch(domain:philpapers.org)",
+      "WebFetch(domain:hegelonai.wordpress.com)"
+    ]
+  }
+}
