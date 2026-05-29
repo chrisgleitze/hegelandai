@@ -17,7 +17,7 @@ const SITE = {
   name: 'Hegel and AI',
   url: 'https://hegelandai.com/',
   description:
-    'A platform for all things Hegel and Artificial Intelligence (AI) - literature and more.',
+    "A platform for all things Hegel and AI - literature and more at the intersection of GWF Hegel's philosophy and Artificial Intelligence.",
   image: 'https://hegelandai.com/images/hegel-profile.jpg',
 }
 
