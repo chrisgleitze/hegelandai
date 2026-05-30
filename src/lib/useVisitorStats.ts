@@ -15,28 +15,26 @@ export function useVisitorStats(site: SiteKey) {
 
   useEffect(() => {
     let isCancelled = false;
-    const timeoutId = window.setTimeout(() => {
-      fetch(`${STATS_URL}?site=${encodeURIComponent(site)}`)
-        .then((res) => (res.ok ? res.json() : null))
-        .then((data) => {
-          const pageViews = Number(data?.totalViews);
-          const uniqueVisitors = Number(data?.uniqueVisitors);
-          const startDate = String(data?.startDate || "");
 
-          if (!isCancelled) {
-            setStats(
-              Number.isFinite(pageViews) && Number.isFinite(uniqueVisitors) && startDate
-                ? { pageViews, uniqueVisitors, startDate }
-                : null,
-            );
-          }
-        })
-        .catch(() => {});
-    }, 1000);
+    fetch(`${STATS_URL}?site=${encodeURIComponent(site)}`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        const pageViews = Number(data?.totalViews);
+        const uniqueVisitors = Number(data?.uniqueVisitors);
+        const startDate = String(data?.startDate || "");
+
+        if (!isCancelled) {
+          setStats(
+            Number.isFinite(pageViews) && Number.isFinite(uniqueVisitors) && startDate
+              ? { pageViews, uniqueVisitors, startDate }
+              : null,
+          );
+        }
+      })
+      .catch(() => {});
 
     return () => {
       isCancelled = true;
-      window.clearTimeout(timeoutId);
     };
   }, [site]);
 

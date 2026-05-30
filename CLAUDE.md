@@ -13,6 +13,8 @@ This repository mirrors the structure of the sister project:
 - Local path: `/home/chris/projects/kantandai`
 - GitHub: `https://github.com/chrisgleitze/kantandai`
 
+**Bidirectional sync rule:** Whenever you make a structural, UI, parser, configuration, or workflow change in one repository, apply the equivalent change in the sister repository in the same session. Adapt content (labels, metadata, assets) as needed — never copy Kant-specific or Hegel-specific content verbatim.
+
 When coding in this repository, actively check whether relevant structural, UI, parser, configuration, or workflow changes exist in `projects/kantandai`, and port them where appropriate. Adapt all copied or ported changes from **Kant and AI** to **Hegel and AI**:
 
 - Replace Kant-specific labels, descriptions, source files, images, and metadata with Hegel-specific equivalents.
