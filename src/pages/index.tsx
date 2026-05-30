@@ -8,6 +8,7 @@ import { Container } from "@/components/Container";
 import { LiteratureOverview } from "@/components/LiteratureOverview";
 import type { LiteratureData } from "@/lib/literature";
 import { useScrollProgress } from "@/lib/useScrollProgress";
+import { useVisitorStats } from "@/lib/useVisitorStats";
 
 type HomeProps = {
   data: LiteratureData;
@@ -76,6 +77,7 @@ const structuredData = {
 
 function Hero() {
   const portraitProgress = useScrollProgress();
+  const visitorStats = useVisitorStats("hegelandai");
 
   return (
     <Container className="mt-16 sm:mt-24">
@@ -106,6 +108,13 @@ function Hero() {
         Hegel-and-AI publications and adjacent work in philosophy of technology,
         political economy, and digital subjectivity.
       </p>
+      {Number.isFinite(visitorStats?.pageViews) && (
+        <p className="mt-6 text-sm font-medium text-zinc-500 dark:text-zinc-500">
+          page views: {visitorStats?.pageViews.toLocaleString()} · unique
+          visitors: {visitorStats?.uniqueVisitors.toLocaleString()}{" "}
+          <span className="font-normal">(since launch on May 28, 2026)</span>
+        </p>
+      )}
     </Container>
   );
 }
